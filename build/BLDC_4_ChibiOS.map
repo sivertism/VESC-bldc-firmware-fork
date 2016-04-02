@@ -2046,7 +2046,7 @@ destructors     0x000000000800c000        0x0
  *(SORT(.fini_array.*))
                 0x000000000800c000                PROVIDE (__fini_array_end, .)
 
-.text           0x000000000800c000    0x21b28
+.text           0x000000000800c000    0x21b58
  *(.text)
  .text          0x000000000800c000      0x108 build/obj/crt0_v7m.o
                 0x000000000800c000                Reset_Handler
@@ -3488,1481 +3488,1481 @@ destructors     0x000000000800c000        0x0
                 0x0000000008019c60                comm_can_transmit_std_id
  *fill*         0x0000000008019cb4        0xc 
  .text.cancom_process_thread
-                0x0000000008019cc0      0x434 build/obj/comm_can.o
- *fill*         0x000000000801a0f4        0xc 
+                0x0000000008019cc0      0x468 build/obj/comm_can.o
+ *fill*         0x000000000801a128        0x8 
  .text.comm_can_send_buffer
-                0x000000000801a100      0x160 build/obj/comm_can.o
-                0x000000000801a100                comm_can_send_buffer
+                0x000000000801a130      0x160 build/obj/comm_can.o
+                0x000000000801a130                comm_can_send_buffer
  .text.send_packet_wrapper
-                0x000000000801a260       0x14 build/obj/comm_can.o
- *fill*         0x000000000801a274        0xc 
+                0x000000000801a290       0x14 build/obj/comm_can.o
+ *fill*         0x000000000801a2a4        0xc 
  .text.comm_can_set_duty
-                0x000000000801a280       0x38 build/obj/comm_can.o
-                0x000000000801a280                comm_can_set_duty
- *fill*         0x000000000801a2b8        0x8 
+                0x000000000801a2b0       0x38 build/obj/comm_can.o
+                0x000000000801a2b0                comm_can_set_duty
+ *fill*         0x000000000801a2e8        0x8 
  .text.comm_can_set_current
-                0x000000000801a2c0       0x38 build/obj/comm_can.o
-                0x000000000801a2c0                comm_can_set_current
- *fill*         0x000000000801a2f8        0x8 
+                0x000000000801a2f0       0x38 build/obj/comm_can.o
+                0x000000000801a2f0                comm_can_set_current
+ *fill*         0x000000000801a328        0x8 
  .text.comm_can_set_current_brake
-                0x000000000801a300       0x38 build/obj/comm_can.o
-                0x000000000801a300                comm_can_set_current_brake
- *fill*         0x000000000801a338        0x8 
+                0x000000000801a330       0x38 build/obj/comm_can.o
+                0x000000000801a330                comm_can_set_current_brake
+ *fill*         0x000000000801a368        0x8 
  .text.comm_can_get_status_msg_index
-                0x000000000801a340       0x18 build/obj/comm_can.o
-                0x000000000801a340                comm_can_get_status_msg_index
- *fill*         0x000000000801a358        0x8 
+                0x000000000801a370       0x18 build/obj/comm_can.o
+                0x000000000801a370                comm_can_get_status_msg_index
+ *fill*         0x000000000801a388        0x8 
  .text.led_external_set_state
-                0x000000000801a360        0xc build/obj/led_external.o
-                0x000000000801a360                led_external_set_state
- *fill*         0x000000000801a36c        0x4 
+                0x000000000801a390        0xc build/obj/led_external.o
+                0x000000000801a390                led_external_set_state
+ *fill*         0x000000000801a39c        0x4 
  .text.led_external_set_reversed
-                0x000000000801a370        0xc build/obj/led_external.o
-                0x000000000801a370                led_external_set_reversed
- *fill*         0x000000000801a37c        0x4 
+                0x000000000801a3a0        0xc build/obj/led_external.o
+                0x000000000801a3a0                led_external_set_reversed
+ *fill*         0x000000000801a3ac        0x4 
  .text.encoder_read_deg
-                0x000000000801a380       0x30 build/obj/encoder.o
-                0x000000000801a380                encoder_read_deg
+                0x000000000801a3b0       0x30 build/obj/encoder.o
+                0x000000000801a3b0                encoder_read_deg
  .text.encoder_reset
-                0x000000000801a3b0       0x18 build/obj/encoder.o
-                0x000000000801a3b0                encoder_reset
- *fill*         0x000000000801a3c8        0x8 
+                0x000000000801a3e0       0x18 build/obj/encoder.o
+                0x000000000801a3e0                encoder_reset
+ *fill*         0x000000000801a3f8        0x8 
  .text.encoder_index_found
-                0x000000000801a3d0        0xc build/obj/encoder.o
-                0x000000000801a3d0                encoder_index_found
- *fill*         0x000000000801a3dc        0x4 
+                0x000000000801a400        0xc build/obj/encoder.o
+                0x000000000801a400                encoder_index_found
+ *fill*         0x000000000801a40c        0x4 
  .text.flash_helper_erase_new_app
-                0x000000000801a3e0       0x70 build/obj/flash_helper.o
-                0x000000000801a3e0                flash_helper_erase_new_app
+                0x000000000801a410       0x70 build/obj/flash_helper.o
+                0x000000000801a410                flash_helper_erase_new_app
  .text.flash_helper_write_new_app_data
-                0x000000000801a450       0x60 build/obj/flash_helper.o
-                0x000000000801a450                flash_helper_write_new_app_data
+                0x000000000801a480       0x60 build/obj/flash_helper.o
+                0x000000000801a480                flash_helper_write_new_app_data
  .text.flash_helper_jump_to_bootloader
-                0x000000000801a4b0       0x8c build/obj/flash_helper.o
-                0x000000000801a4b0                flash_helper_jump_to_bootloader
- *fill*         0x000000000801a53c        0x4 
+                0x000000000801a4e0       0x8c build/obj/flash_helper.o
+                0x000000000801a4e0                flash_helper_jump_to_bootloader
+ *fill*         0x000000000801a56c        0x4 
  .text.flash_helper_get_sector_address
-                0x000000000801a540       0x28 build/obj/flash_helper.o
-                0x000000000801a540                flash_helper_get_sector_address
- *fill*         0x000000000801a568        0x8 
+                0x000000000801a570       0x28 build/obj/flash_helper.o
+                0x000000000801a570                flash_helper_get_sector_address
+ *fill*         0x000000000801a598        0x8 
  .text.sample_send_thread
-                0x000000000801a570      0x130 build/obj/mc_interface.o
+                0x000000000801a5a0      0x130 build/obj/mc_interface.o
  .text.mc_interface_init
-                0x000000000801a6a0      0x154 build/obj/mc_interface.o
-                0x000000000801a6a0                mc_interface_init
- *fill*         0x000000000801a7f4        0xc 
+                0x000000000801a6d0      0x154 build/obj/mc_interface.o
+                0x000000000801a6d0                mc_interface_init
+ *fill*         0x000000000801a824        0xc 
  .text.mc_interface_get_configuration
-                0x000000000801a800        0x8 build/obj/mc_interface.o
-                0x000000000801a800                mc_interface_get_configuration
- *fill*         0x000000000801a808        0x8 
+                0x000000000801a830        0x8 build/obj/mc_interface.o
+                0x000000000801a830                mc_interface_get_configuration
+ *fill*         0x000000000801a838        0x8 
  .text.mc_interface_dccal_done
-                0x000000000801a810       0x20 build/obj/mc_interface.o
-                0x000000000801a810                mc_interface_dccal_done
+                0x000000000801a840       0x20 build/obj/mc_interface.o
+                0x000000000801a840                mc_interface_dccal_done
  .text.mc_interface_lock
-                0x000000000801a830        0xc build/obj/mc_interface.o
-                0x000000000801a830                mc_interface_lock
- *fill*         0x000000000801a83c        0x4 
- .text.mc_interface_unlock
-                0x000000000801a840        0xc build/obj/mc_interface.o
-                0x000000000801a840                mc_interface_unlock
- *fill*         0x000000000801a84c        0x4 
- .text.mc_interface_lock_override_once
-                0x000000000801a850        0xc build/obj/mc_interface.o
-                0x000000000801a850                mc_interface_lock_override_once
- *fill*         0x000000000801a85c        0x4 
- .text.mc_interface_get_fault
                 0x000000000801a860        0xc build/obj/mc_interface.o
-                0x000000000801a860                mc_interface_get_fault
+                0x000000000801a860                mc_interface_lock
  *fill*         0x000000000801a86c        0x4 
+ .text.mc_interface_unlock
+                0x000000000801a870        0xc build/obj/mc_interface.o
+                0x000000000801a870                mc_interface_unlock
+ *fill*         0x000000000801a87c        0x4 
+ .text.mc_interface_lock_override_once
+                0x000000000801a880        0xc build/obj/mc_interface.o
+                0x000000000801a880                mc_interface_lock_override_once
+ *fill*         0x000000000801a88c        0x4 
+ .text.mc_interface_get_fault
+                0x000000000801a890        0xc build/obj/mc_interface.o
+                0x000000000801a890                mc_interface_get_fault
+ *fill*         0x000000000801a89c        0x4 
  .text.mc_interface_fault_to_string
-                0x000000000801a870       0x18 build/obj/mc_interface.o
-                0x000000000801a870                mc_interface_fault_to_string
- *fill*         0x000000000801a888        0x8 
+                0x000000000801a8a0       0x18 build/obj/mc_interface.o
+                0x000000000801a8a0                mc_interface_fault_to_string
+ *fill*         0x000000000801a8b8        0x8 
  .text.mc_interface_get_state
-                0x000000000801a890       0x20 build/obj/mc_interface.o
-                0x000000000801a890                mc_interface_get_state
+                0x000000000801a8c0       0x20 build/obj/mc_interface.o
+                0x000000000801a8c0                mc_interface_get_state
  .text.mc_interface_get_duty_cycle_now
-                0x000000000801a8b0       0x24 build/obj/mc_interface.o
-                0x000000000801a8b0                mc_interface_get_duty_cycle_now
- *fill*         0x000000000801a8d4        0xc 
- .text.mc_interface_get_switching_frequency_now
                 0x000000000801a8e0       0x24 build/obj/mc_interface.o
-                0x000000000801a8e0                mc_interface_get_switching_frequency_now
+                0x000000000801a8e0                mc_interface_get_duty_cycle_now
  *fill*         0x000000000801a904        0xc 
- .text.mc_interface_get_rpm
+ .text.mc_interface_get_switching_frequency_now
                 0x000000000801a910       0x24 build/obj/mc_interface.o
-                0x000000000801a910                mc_interface_get_rpm
+                0x000000000801a910                mc_interface_get_switching_frequency_now
  *fill*         0x000000000801a934        0xc 
+ .text.mc_interface_get_rpm
+                0x000000000801a940       0x24 build/obj/mc_interface.o
+                0x000000000801a940                mc_interface_get_rpm
+ *fill*         0x000000000801a964        0xc 
  .text.mc_interface_get_amp_hours
-                0x000000000801a940       0x20 build/obj/mc_interface.o
-                0x000000000801a940                mc_interface_get_amp_hours
+                0x000000000801a970       0x20 build/obj/mc_interface.o
+                0x000000000801a970                mc_interface_get_amp_hours
  .text.mc_interface_get_amp_hours_charged
-                0x000000000801a960       0x20 build/obj/mc_interface.o
-                0x000000000801a960                mc_interface_get_amp_hours_charged
+                0x000000000801a990       0x20 build/obj/mc_interface.o
+                0x000000000801a990                mc_interface_get_amp_hours_charged
  .text.mc_interface_get_watt_hours
-                0x000000000801a980       0x24 build/obj/mc_interface.o
-                0x000000000801a980                mc_interface_get_watt_hours
- *fill*         0x000000000801a9a4        0xc 
+                0x000000000801a9b0       0x24 build/obj/mc_interface.o
+                0x000000000801a9b0                mc_interface_get_watt_hours
+ *fill*         0x000000000801a9d4        0xc 
  .text.mc_interface_get_watt_hours_charged
-                0x000000000801a9b0       0x20 build/obj/mc_interface.o
-                0x000000000801a9b0                mc_interface_get_watt_hours_charged
+                0x000000000801a9e0       0x20 build/obj/mc_interface.o
+                0x000000000801a9e0                mc_interface_get_watt_hours_charged
  .text.mc_interface_get_tot_current
-                0x000000000801a9d0       0x24 build/obj/mc_interface.o
-                0x000000000801a9d0                mc_interface_get_tot_current
- *fill*         0x000000000801a9f4        0xc 
- .text.mc_interface_get_tot_current_filtered
                 0x000000000801aa00       0x24 build/obj/mc_interface.o
-                0x000000000801aa00                mc_interface_get_tot_current_filtered
+                0x000000000801aa00                mc_interface_get_tot_current
  *fill*         0x000000000801aa24        0xc 
- .text.mc_interface_get_tot_current_directional
+ .text.mc_interface_get_tot_current_filtered
                 0x000000000801aa30       0x24 build/obj/mc_interface.o
-                0x000000000801aa30                mc_interface_get_tot_current_directional
+                0x000000000801aa30                mc_interface_get_tot_current_filtered
  *fill*         0x000000000801aa54        0xc 
- .text.mc_interface_get_tot_current_directional_filtered
+ .text.mc_interface_get_tot_current_directional
                 0x000000000801aa60       0x24 build/obj/mc_interface.o
-                0x000000000801aa60                mc_interface_get_tot_current_directional_filtered
+                0x000000000801aa60                mc_interface_get_tot_current_directional
  *fill*         0x000000000801aa84        0xc 
- .text.mc_interface_get_tot_current_in_filtered
+ .text.mc_interface_get_tot_current_directional_filtered
                 0x000000000801aa90       0x24 build/obj/mc_interface.o
-                0x000000000801aa90                mc_interface_get_tot_current_in_filtered
+                0x000000000801aa90                mc_interface_get_tot_current_directional_filtered
  *fill*         0x000000000801aab4        0xc 
+ .text.mc_interface_get_tot_current_in_filtered
+                0x000000000801aac0       0x24 build/obj/mc_interface.o
+                0x000000000801aac0                mc_interface_get_tot_current_in_filtered
+ *fill*         0x000000000801aae4        0xc 
  .text.mc_interface_get_tachometer_value
-                0x000000000801aac0       0x20 build/obj/mc_interface.o
-                0x000000000801aac0                mc_interface_get_tachometer_value
+                0x000000000801aaf0       0x20 build/obj/mc_interface.o
+                0x000000000801aaf0                mc_interface_get_tachometer_value
  .text.mc_interface_get_tachometer_abs_value
-                0x000000000801aae0       0x20 build/obj/mc_interface.o
-                0x000000000801aae0                mc_interface_get_tachometer_abs_value
+                0x000000000801ab10       0x20 build/obj/mc_interface.o
+                0x000000000801ab10                mc_interface_get_tachometer_abs_value
  .text.mc_interface_get_last_inj_adc_isr_duration
-                0x000000000801ab00       0x24 build/obj/mc_interface.o
-                0x000000000801ab00                mc_interface_get_last_inj_adc_isr_duration
- *fill*         0x000000000801ab24        0xc 
+                0x000000000801ab30       0x24 build/obj/mc_interface.o
+                0x000000000801ab30                mc_interface_get_last_inj_adc_isr_duration
+ *fill*         0x000000000801ab54        0xc 
  .text.mc_interface_read_reset_avg_motor_current
-                0x000000000801ab30       0x20 build/obj/mc_interface.o
-                0x000000000801ab30                mc_interface_read_reset_avg_motor_current
+                0x000000000801ab60       0x20 build/obj/mc_interface.o
+                0x000000000801ab60                mc_interface_read_reset_avg_motor_current
  .text.mc_interface_read_reset_avg_input_current
-                0x000000000801ab50       0x20 build/obj/mc_interface.o
-                0x000000000801ab50                mc_interface_read_reset_avg_input_current
+                0x000000000801ab80       0x20 build/obj/mc_interface.o
+                0x000000000801ab80                mc_interface_read_reset_avg_input_current
  .text.mc_interface_get_pid_pos_set
-                0x000000000801ab70        0xc build/obj/mc_interface.o
-                0x000000000801ab70                mc_interface_get_pid_pos_set
- *fill*         0x000000000801ab7c        0x4 
+                0x000000000801aba0        0xc build/obj/mc_interface.o
+                0x000000000801aba0                mc_interface_get_pid_pos_set
+ *fill*         0x000000000801abac        0x4 
  .text.mc_interface_get_pid_pos_now
-                0x000000000801ab80       0x24 build/obj/mc_interface.o
-                0x000000000801ab80                mc_interface_get_pid_pos_now
- *fill*         0x000000000801aba4        0xc 
+                0x000000000801abb0       0x24 build/obj/mc_interface.o
+                0x000000000801abb0                mc_interface_get_pid_pos_now
+ *fill*         0x000000000801abd4        0xc 
  .text.mc_interface_get_last_sample_adc_isr_duration
-                0x000000000801abb0        0xc build/obj/mc_interface.o
-                0x000000000801abb0                mc_interface_get_last_sample_adc_isr_duration
- *fill*         0x000000000801abbc        0x4 
+                0x000000000801abe0        0xc build/obj/mc_interface.o
+                0x000000000801abe0                mc_interface_get_last_sample_adc_isr_duration
+ *fill*         0x000000000801abec        0x4 
  .text.mc_interface_sample_print_data
-                0x000000000801abc0       0x48 build/obj/mc_interface.o
-                0x000000000801abc0                mc_interface_sample_print_data
- *fill*         0x000000000801ac08        0x8 
+                0x000000000801abf0       0x48 build/obj/mc_interface.o
+                0x000000000801abf0                mc_interface_sample_print_data
+ *fill*         0x000000000801ac38        0x8 
  .text.mc_interface_try_input
-                0x000000000801ac10       0x40 build/obj/mc_interface.o
-                0x000000000801ac10                mc_interface_try_input
+                0x000000000801ac40       0x40 build/obj/mc_interface.o
+                0x000000000801ac40                mc_interface_try_input
  .text.mc_interface_set_duty
-                0x000000000801ac50       0x48 build/obj/mc_interface.o
-                0x000000000801ac50                mc_interface_set_duty
- *fill*         0x000000000801ac98        0x8 
+                0x000000000801ac80       0x48 build/obj/mc_interface.o
+                0x000000000801ac80                mc_interface_set_duty
+ *fill*         0x000000000801acc8        0x8 
  .text.mc_interface_set_pid_speed
-                0x000000000801aca0       0x48 build/obj/mc_interface.o
-                0x000000000801aca0                mc_interface_set_pid_speed
- *fill*         0x000000000801ace8        0x8 
+                0x000000000801acd0       0x48 build/obj/mc_interface.o
+                0x000000000801acd0                mc_interface_set_pid_speed
+ *fill*         0x000000000801ad18        0x8 
  .text.mc_interface_set_pid_pos
-                0x000000000801acf0       0x54 build/obj/mc_interface.o
-                0x000000000801acf0                mc_interface_set_pid_pos
- *fill*         0x000000000801ad44        0xc 
+                0x000000000801ad20       0x54 build/obj/mc_interface.o
+                0x000000000801ad20                mc_interface_set_pid_pos
+ *fill*         0x000000000801ad74        0xc 
  .text.mc_interface_set_current
-                0x000000000801ad50       0x48 build/obj/mc_interface.o
-                0x000000000801ad50                mc_interface_set_current
- *fill*         0x000000000801ad98        0x8 
+                0x000000000801ad80       0x48 build/obj/mc_interface.o
+                0x000000000801ad80                mc_interface_set_current
+ *fill*         0x000000000801adc8        0x8 
  .text.mc_interface_release_motor
-                0x000000000801ada0        0xc build/obj/mc_interface.o
-                0x000000000801ada0                mc_interface_release_motor
- *fill*         0x000000000801adac        0x4 
+                0x000000000801add0        0xc build/obj/mc_interface.o
+                0x000000000801add0                mc_interface_release_motor
+ *fill*         0x000000000801addc        0x4 
  .text.mc_interface_set_brake_current
-                0x000000000801adb0       0x48 build/obj/mc_interface.o
-                0x000000000801adb0                mc_interface_set_brake_current
- *fill*         0x000000000801adf8        0x8 
+                0x000000000801ade0       0x48 build/obj/mc_interface.o
+                0x000000000801ade0                mc_interface_set_brake_current
+ *fill*         0x000000000801ae28        0x8 
  .text.mc_interface_fault_stop
-                0x000000000801ae00      0x144 build/obj/mc_interface.o
-                0x000000000801ae00                mc_interface_fault_stop
- *fill*         0x000000000801af44        0xc 
+                0x000000000801ae30      0x144 build/obj/mc_interface.o
+                0x000000000801ae30                mc_interface_fault_stop
+ *fill*         0x000000000801af74        0xc 
  .text.update_override_limits.constprop.2
-                0x000000000801af50      0x1c8 build/obj/mc_interface.o
- *fill*         0x000000000801b118        0x8 
+                0x000000000801af80      0x1c8 build/obj/mc_interface.o
+ *fill*         0x000000000801b148        0x8 
  .text.mc_interface_set_configuration
-                0x000000000801b120       0x8c build/obj/mc_interface.o
-                0x000000000801b120                mc_interface_set_configuration
- *fill*         0x000000000801b1ac        0x4 
+                0x000000000801b150       0x8c build/obj/mc_interface.o
+                0x000000000801b150                mc_interface_set_configuration
+ *fill*         0x000000000801b1dc        0x4 
  .text.timer_thread
-                0x000000000801b1b0       0x60 build/obj/mc_interface.o
+                0x000000000801b1e0       0x60 build/obj/mc_interface.o
  .text.mc_interface_mc_timer_isr
-                0x000000000801b210      0x4a4 build/obj/mc_interface.o
-                0x000000000801b210                mc_interface_mc_timer_isr
- *fill*         0x000000000801b6b4        0xc 
+                0x000000000801b240      0x4a4 build/obj/mc_interface.o
+                0x000000000801b240                mc_interface_mc_timer_isr
+ *fill*         0x000000000801b6e4        0xc 
  .text.mc_interface_adc_inj_int_handler
-                0x000000000801b6c0       0x1c build/obj/mc_interface.o
-                0x000000000801b6c0                mc_interface_adc_inj_int_handler
- *fill*         0x000000000801b6dc        0x4 
+                0x000000000801b6f0       0x1c build/obj/mc_interface.o
+                0x000000000801b6f0                mc_interface_adc_inj_int_handler
+ *fill*         0x000000000801b70c        0x4 
  .text.stop_pwm_hw
-                0x000000000801b6e0       0x78 build/obj/mcpwm_foc.o
- *fill*         0x000000000801b758        0x8 
+                0x000000000801b710       0x78 build/obj/mcpwm_foc.o
+ *fill*         0x000000000801b788        0x8 
  .text.start_pwm_hw
-                0x000000000801b760       0x78 build/obj/mcpwm_foc.o
- *fill*         0x000000000801b7d8        0x8 
+                0x000000000801b790       0x78 build/obj/mcpwm_foc.o
+ *fill*         0x000000000801b808        0x8 
  .text.correct_hall
-                0x000000000801b7e0      0x220 build/obj/mcpwm_foc.o
+                0x000000000801b810      0x220 build/obj/mcpwm_foc.o
  .text.timer_thread
-                0x000000000801ba00      0x38c build/obj/mcpwm_foc.o
- *fill*         0x000000000801bd8c        0x4 
+                0x000000000801ba30      0x38c build/obj/mcpwm_foc.o
+ *fill*         0x000000000801bdbc        0x4 
  .text.mcpwm_foc_init
-                0x000000000801bd90      0x5a4 build/obj/mcpwm_foc.o
-                0x000000000801bd90                mcpwm_foc_init
- *fill*         0x000000000801c334        0xc 
+                0x000000000801bdc0      0x5a4 build/obj/mcpwm_foc.o
+                0x000000000801bdc0                mcpwm_foc_init
+ *fill*         0x000000000801c364        0xc 
  .text.mcpwm_foc_deinit
-                0x000000000801c340       0x60 build/obj/mcpwm_foc.o
-                0x000000000801c340                mcpwm_foc_deinit
+                0x000000000801c370       0x60 build/obj/mcpwm_foc.o
+                0x000000000801c370                mcpwm_foc_deinit
  .text.mcpwm_foc_set_configuration
-                0x000000000801c3a0       0x74 build/obj/mcpwm_foc.o
-                0x000000000801c3a0                mcpwm_foc_set_configuration
- *fill*         0x000000000801c414        0xc 
+                0x000000000801c3d0       0x74 build/obj/mcpwm_foc.o
+                0x000000000801c3d0                mcpwm_foc_set_configuration
+ *fill*         0x000000000801c444        0xc 
  .text.mcpwm_foc_get_state
-                0x000000000801c420        0xc build/obj/mcpwm_foc.o
-                0x000000000801c420                mcpwm_foc_get_state
- *fill*         0x000000000801c42c        0x4 
+                0x000000000801c450        0xc build/obj/mcpwm_foc.o
+                0x000000000801c450                mcpwm_foc_get_state
+ *fill*         0x000000000801c45c        0x4 
  .text.mcpwm_foc_is_dccal_done
-                0x000000000801c430        0xc build/obj/mcpwm_foc.o
-                0x000000000801c430                mcpwm_foc_is_dccal_done
- *fill*         0x000000000801c43c        0x4 
+                0x000000000801c460        0xc build/obj/mcpwm_foc.o
+                0x000000000801c460                mcpwm_foc_is_dccal_done
+ *fill*         0x000000000801c46c        0x4 
  .text.mcpwm_foc_set_duty
-                0x000000000801c440       0x28 build/obj/mcpwm_foc.o
-                0x000000000801c440                mcpwm_foc_set_duty
- *fill*         0x000000000801c468        0x8 
- .text.mcpwm_foc_set_pid_speed
                 0x000000000801c470       0x28 build/obj/mcpwm_foc.o
-                0x000000000801c470                mcpwm_foc_set_pid_speed
+                0x000000000801c470                mcpwm_foc_set_duty
  *fill*         0x000000000801c498        0x8 
- .text.mcpwm_foc_set_pid_pos
+ .text.mcpwm_foc_set_pid_speed
                 0x000000000801c4a0       0x28 build/obj/mcpwm_foc.o
-                0x000000000801c4a0                mcpwm_foc_set_pid_pos
+                0x000000000801c4a0                mcpwm_foc_set_pid_speed
  *fill*         0x000000000801c4c8        0x8 
+ .text.mcpwm_foc_set_pid_pos
+                0x000000000801c4d0       0x28 build/obj/mcpwm_foc.o
+                0x000000000801c4d0                mcpwm_foc_set_pid_pos
+ *fill*         0x000000000801c4f8        0x8 
  .text.mcpwm_foc_set_current
-                0x000000000801c4d0       0x6c build/obj/mcpwm_foc.o
-                0x000000000801c4d0                mcpwm_foc_set_current
- *fill*         0x000000000801c53c        0x4 
+                0x000000000801c500       0x6c build/obj/mcpwm_foc.o
+                0x000000000801c500                mcpwm_foc_set_current
+ *fill*         0x000000000801c56c        0x4 
  .text.mcpwm_foc_stop_pwm
-                0x000000000801c540        0xc build/obj/mcpwm_foc.o
-                0x000000000801c540                mcpwm_foc_stop_pwm
- *fill*         0x000000000801c54c        0x4 
+                0x000000000801c570        0xc build/obj/mcpwm_foc.o
+                0x000000000801c570                mcpwm_foc_stop_pwm
+ *fill*         0x000000000801c57c        0x4 
  .text.mcpwm_foc_set_brake_current
-                0x000000000801c550       0x6c build/obj/mcpwm_foc.o
-                0x000000000801c550                mcpwm_foc_set_brake_current
- *fill*         0x000000000801c5bc        0x4 
+                0x000000000801c580       0x6c build/obj/mcpwm_foc.o
+                0x000000000801c580                mcpwm_foc_set_brake_current
+ *fill*         0x000000000801c5ec        0x4 
  .text.mcpwm_foc_get_duty_cycle_now
-                0x000000000801c5c0        0xc build/obj/mcpwm_foc.o
-                0x000000000801c5c0                mcpwm_foc_get_duty_cycle_now
- *fill*         0x000000000801c5cc        0x4 
+                0x000000000801c5f0        0xc build/obj/mcpwm_foc.o
+                0x000000000801c5f0                mcpwm_foc_get_duty_cycle_now
+ *fill*         0x000000000801c5fc        0x4 
  .text.mcpwm_foc_get_pid_pos_now
-                0x000000000801c5d0        0xc build/obj/mcpwm_foc.o
-                0x000000000801c5d0                mcpwm_foc_get_pid_pos_now
- *fill*         0x000000000801c5dc        0x4 
+                0x000000000801c600        0xc build/obj/mcpwm_foc.o
+                0x000000000801c600                mcpwm_foc_get_pid_pos_now
+ *fill*         0x000000000801c60c        0x4 
  .text.mcpwm_foc_get_switching_frequency_now
-                0x000000000801c5e0       0x10 build/obj/mcpwm_foc.o
-                0x000000000801c5e0                mcpwm_foc_get_switching_frequency_now
+                0x000000000801c610       0x10 build/obj/mcpwm_foc.o
+                0x000000000801c610                mcpwm_foc_get_switching_frequency_now
  .text.mcpwm_foc_get_rpm
-                0x000000000801c5f0       0x18 build/obj/mcpwm_foc.o
-                0x000000000801c5f0                mcpwm_foc_get_rpm
- *fill*         0x000000000801c608        0x8 
+                0x000000000801c620       0x18 build/obj/mcpwm_foc.o
+                0x000000000801c620                mcpwm_foc_get_rpm
+ *fill*         0x000000000801c638        0x8 
  .text.mcpwm_foc_get_tot_current
-                0x000000000801c610       0x2c build/obj/mcpwm_foc.o
-                0x000000000801c610                mcpwm_foc_get_tot_current
- *fill*         0x000000000801c63c        0x4 
- .text.mcpwm_foc_get_tot_current_filtered
                 0x000000000801c640       0x2c build/obj/mcpwm_foc.o
-                0x000000000801c640                mcpwm_foc_get_tot_current_filtered
+                0x000000000801c640                mcpwm_foc_get_tot_current
  *fill*         0x000000000801c66c        0x4 
- .text.mcpwm_foc_get_abs_motor_current
-                0x000000000801c670        0xc build/obj/mcpwm_foc.o
-                0x000000000801c670                mcpwm_foc_get_abs_motor_current
- *fill*         0x000000000801c67c        0x4 
- .text.mcpwm_foc_get_abs_motor_current_filtered
-                0x000000000801c680        0xc build/obj/mcpwm_foc.o
-                0x000000000801c680                mcpwm_foc_get_abs_motor_current_filtered
- *fill*         0x000000000801c68c        0x4 
- .text.mcpwm_foc_get_tot_current_directional
-                0x000000000801c690        0xc build/obj/mcpwm_foc.o
-                0x000000000801c690                mcpwm_foc_get_tot_current_directional
+ .text.mcpwm_foc_get_tot_current_filtered
+                0x000000000801c670       0x2c build/obj/mcpwm_foc.o
+                0x000000000801c670                mcpwm_foc_get_tot_current_filtered
  *fill*         0x000000000801c69c        0x4 
- .text.mcpwm_foc_get_tot_current_directional_filtered
+ .text.mcpwm_foc_get_abs_motor_current
                 0x000000000801c6a0        0xc build/obj/mcpwm_foc.o
-                0x000000000801c6a0                mcpwm_foc_get_tot_current_directional_filtered
+                0x000000000801c6a0                mcpwm_foc_get_abs_motor_current
  *fill*         0x000000000801c6ac        0x4 
- .text.mcpwm_foc_get_tot_current_in_filtered
+ .text.mcpwm_foc_get_abs_motor_current_filtered
                 0x000000000801c6b0        0xc build/obj/mcpwm_foc.o
-                0x000000000801c6b0                mcpwm_foc_get_tot_current_in_filtered
+                0x000000000801c6b0                mcpwm_foc_get_abs_motor_current_filtered
  *fill*         0x000000000801c6bc        0x4 
+ .text.mcpwm_foc_get_tot_current_directional
+                0x000000000801c6c0        0xc build/obj/mcpwm_foc.o
+                0x000000000801c6c0                mcpwm_foc_get_tot_current_directional
+ *fill*         0x000000000801c6cc        0x4 
+ .text.mcpwm_foc_get_tot_current_directional_filtered
+                0x000000000801c6d0        0xc build/obj/mcpwm_foc.o
+                0x000000000801c6d0                mcpwm_foc_get_tot_current_directional_filtered
+ *fill*         0x000000000801c6dc        0x4 
+ .text.mcpwm_foc_get_tot_current_in_filtered
+                0x000000000801c6e0        0xc build/obj/mcpwm_foc.o
+                0x000000000801c6e0                mcpwm_foc_get_tot_current_in_filtered
+ *fill*         0x000000000801c6ec        0x4 
  .text.mcpwm_foc_get_tachometer_value
-                0x000000000801c6c0       0x14 build/obj/mcpwm_foc.o
-                0x000000000801c6c0                mcpwm_foc_get_tachometer_value
- *fill*         0x000000000801c6d4        0xc 
+                0x000000000801c6f0       0x14 build/obj/mcpwm_foc.o
+                0x000000000801c6f0                mcpwm_foc_get_tachometer_value
+ *fill*         0x000000000801c704        0xc 
  .text.mcpwm_foc_get_tachometer_abs_value
-                0x000000000801c6e0       0x14 build/obj/mcpwm_foc.o
-                0x000000000801c6e0                mcpwm_foc_get_tachometer_abs_value
- *fill*         0x000000000801c6f4        0xc 
+                0x000000000801c710       0x14 build/obj/mcpwm_foc.o
+                0x000000000801c710                mcpwm_foc_get_tachometer_abs_value
+ *fill*         0x000000000801c724        0xc 
  .text.mcpwm_foc_get_phase_observer
-                0x000000000801c700       0x30 build/obj/mcpwm_foc.o
-                0x000000000801c700                mcpwm_foc_get_phase_observer
- .text.mcpwm_foc_get_phase_encoder
                 0x000000000801c730       0x30 build/obj/mcpwm_foc.o
-                0x000000000801c730                mcpwm_foc_get_phase_encoder
+                0x000000000801c730                mcpwm_foc_get_phase_observer
+ .text.mcpwm_foc_get_phase_encoder
+                0x000000000801c760       0x30 build/obj/mcpwm_foc.o
+                0x000000000801c760                mcpwm_foc_get_phase_encoder
  .text.mcpwm_foc_get_vq
-                0x000000000801c760        0xc build/obj/mcpwm_foc.o
-                0x000000000801c760                mcpwm_foc_get_vq
- *fill*         0x000000000801c76c        0x4 
+                0x000000000801c790        0xc build/obj/mcpwm_foc.o
+                0x000000000801c790                mcpwm_foc_get_vq
+ *fill*         0x000000000801c79c        0x4 
  .text.mcpwm_foc_measure_resistance
-                0x000000000801c770      0x110 build/obj/mcpwm_foc.o
-                0x000000000801c770                mcpwm_foc_measure_resistance
+                0x000000000801c7a0      0x110 build/obj/mcpwm_foc.o
+                0x000000000801c7a0                mcpwm_foc_measure_resistance
  .text.mcpwm_foc_measure_inductance
-                0x000000000801c880      0x104 build/obj/mcpwm_foc.o
-                0x000000000801c880                mcpwm_foc_measure_inductance
- *fill*         0x000000000801c984        0xc 
+                0x000000000801c8b0      0x104 build/obj/mcpwm_foc.o
+                0x000000000801c8b0                mcpwm_foc_measure_inductance
+ *fill*         0x000000000801c9b4        0xc 
  .text.mcpwm_foc_measure_res_ind
-                0x000000000801c990      0x210 build/obj/mcpwm_foc.o
-                0x000000000801c990                mcpwm_foc_measure_res_ind
+                0x000000000801c9c0      0x210 build/obj/mcpwm_foc.o
+                0x000000000801c9c0                mcpwm_foc_measure_res_ind
  .text.mcpwm_foc_hall_detect
-                0x000000000801cba0      0x2b0 build/obj/mcpwm_foc.o
-                0x000000000801cba0                mcpwm_foc_hall_detect
+                0x000000000801cbd0      0x2b0 build/obj/mcpwm_foc.o
+                0x000000000801cbd0                mcpwm_foc_hall_detect
  .text.mcpwm_foc_print_state
-                0x000000000801ce50      0x180 build/obj/mcpwm_foc.o
-                0x000000000801ce50                mcpwm_foc_print_state
+                0x000000000801ce80      0x180 build/obj/mcpwm_foc.o
+                0x000000000801ce80                mcpwm_foc_print_state
  .text.mcpwm_foc_get_last_inj_adc_isr_duration
-                0x000000000801cfd0        0xc build/obj/mcpwm_foc.o
-                0x000000000801cfd0                mcpwm_foc_get_last_inj_adc_isr_duration
- *fill*         0x000000000801cfdc        0x4 
+                0x000000000801d000        0xc build/obj/mcpwm_foc.o
+                0x000000000801d000                mcpwm_foc_get_last_inj_adc_isr_duration
+ *fill*         0x000000000801d00c        0x4 
  .text.observer_update
-                0x000000000801cfe0      0x124 build/obj/mcpwm_foc.o
-                0x000000000801cfe0                observer_update
- *fill*         0x000000000801d104        0xc 
+                0x000000000801d010      0x124 build/obj/mcpwm_foc.o
+                0x000000000801d010                observer_update
+ *fill*         0x000000000801d134        0xc 
  .text.mcpwm_foc_adc_inj_int_handler
-                0x000000000801d110     0x11ac build/obj/mcpwm_foc.o
-                0x000000000801d110                mcpwm_foc_adc_inj_int_handler
- *fill*         0x000000000801e2bc        0x4 
+                0x000000000801d140     0x11ac build/obj/mcpwm_foc.o
+                0x000000000801d140                mcpwm_foc_adc_inj_int_handler
+ *fill*         0x000000000801e2ec        0x4 
  .text.hw_init_gpio
-                0x000000000801e2c0      0x154 build/obj/hw_410.o
-                0x000000000801e2c0                hw_init_gpio
- *fill*         0x000000000801e414        0xc 
+                0x000000000801e2f0      0x154 build/obj/hw_410.o
+                0x000000000801e2f0                hw_init_gpio
+ *fill*         0x000000000801e444        0xc 
  .text.hw_setup_adc_channels
-                0x000000000801e420       0xd8 build/obj/hw_410.o
-                0x000000000801e420                hw_setup_adc_channels
- *fill*         0x000000000801e4f8        0x8 
+                0x000000000801e450       0xd8 build/obj/hw_410.o
+                0x000000000801e450                hw_setup_adc_channels
+ *fill*         0x000000000801e528        0x8 
  .text.hw_start_i2c
-                0x000000000801e500       0x50 build/obj/hw_410.o
-                0x000000000801e500                hw_start_i2c
+                0x000000000801e530       0x50 build/obj/hw_410.o
+                0x000000000801e530                hw_start_i2c
  .text.hw_stop_i2c
-                0x000000000801e550       0x48 build/obj/hw_410.o
-                0x000000000801e550                hw_stop_i2c
- *fill*         0x000000000801e598        0x8 
+                0x000000000801e580       0x48 build/obj/hw_410.o
+                0x000000000801e580                hw_stop_i2c
+ *fill*         0x000000000801e5c8        0x8 
  .text.hw_try_restore_i2c
-                0x000000000801e5a0       0xc4 build/obj/hw_410.o
-                0x000000000801e5a0                hw_try_restore_i2c
- *fill*         0x000000000801e664        0xc 
+                0x000000000801e5d0       0xc4 build/obj/hw_410.o
+                0x000000000801e5d0                hw_try_restore_i2c
+ *fill*         0x000000000801e694        0xc 
  .text.app_get_configuration
-                0x000000000801e670        0x8 build/obj/app.o
-                0x000000000801e670                app_get_configuration
- *fill*         0x000000000801e678        0x8 
+                0x000000000801e6a0        0x8 build/obj/app.o
+                0x000000000801e6a0                app_get_configuration
+ *fill*         0x000000000801e6a8        0x8 
  .text.app_set_configuration
-                0x000000000801e680       0x3c build/obj/app.o
-                0x000000000801e680                app_set_configuration
- *fill*         0x000000000801e6bc        0x4 
+                0x000000000801e6b0       0x3c build/obj/app.o
+                0x000000000801e6b0                app_set_configuration
+ *fill*         0x000000000801e6ec        0x4 
  .text.app_init
-                0x000000000801e6c0       0x78 build/obj/app.o
-                0x000000000801e6c0                app_init
- *fill*         0x000000000801e738        0x8 
+                0x000000000801e6f0       0x78 build/obj/app.o
+                0x000000000801e6f0                app_init
+ *fill*         0x000000000801e768        0x8 
  .text.ppm_thread
-                0x000000000801e740      0x5d8 build/obj/app_ppm.o
- *fill*         0x000000000801ed18        0x8 
+                0x000000000801e770      0x5d8 build/obj/app_ppm.o
+ *fill*         0x000000000801ed48        0x8 
  .text.servodec_func
-                0x000000000801ed20       0x24 build/obj/app_ppm.o
- *fill*         0x000000000801ed44        0xc 
- .text.update   0x000000000801ed50       0x40 build/obj/app_ppm.o
+                0x000000000801ed50       0x24 build/obj/app_ppm.o
+ *fill*         0x000000000801ed74        0xc 
+ .text.update   0x000000000801ed80       0x40 build/obj/app_ppm.o
  .text.app_ppm_configure
-                0x000000000801ed90       0x48 build/obj/app_ppm.o
-                0x000000000801ed90                app_ppm_configure
- *fill*         0x000000000801edd8        0x8 
+                0x000000000801edc0       0x48 build/obj/app_ppm.o
+                0x000000000801edc0                app_ppm_configure
+ *fill*         0x000000000801ee08        0x8 
  .text.app_ppm_start
-                0x000000000801ede0       0x50 build/obj/app_ppm.o
-                0x000000000801ede0                app_ppm_start
+                0x000000000801ee10       0x50 build/obj/app_ppm.o
+                0x000000000801ee10                app_ppm_start
  .text.adc_thread
-                0x000000000801ee30      0x97c build/obj/app_adc.o
- *fill*         0x000000000801f7ac        0x4 
+                0x000000000801ee60      0x97c build/obj/app_adc.o
+ *fill*         0x000000000801f7dc        0x4 
  .text.app_adc_configure
-                0x000000000801f7b0       0x28 build/obj/app_adc.o
-                0x000000000801f7b0                app_adc_configure
- *fill*         0x000000000801f7d8        0x8 
+                0x000000000801f7e0       0x28 build/obj/app_adc.o
+                0x000000000801f7e0                app_adc_configure
+ *fill*         0x000000000801f808        0x8 
  .text.app_adc_start
-                0x000000000801f7e0       0x2c build/obj/app_adc.o
-                0x000000000801f7e0                app_adc_start
- *fill*         0x000000000801f80c        0x4 
- .text.app_adc_get_decoded_level
-                0x000000000801f810        0xc build/obj/app_adc.o
-                0x000000000801f810                app_adc_get_decoded_level
- *fill*         0x000000000801f81c        0x4 
- .text.app_adc_get_voltage
-                0x000000000801f820        0xc build/obj/app_adc.o
-                0x000000000801f820                app_adc_get_voltage
- *fill*         0x000000000801f82c        0x4 
- .text.app_adc_get_decoded_level2
-                0x000000000801f830        0xc build/obj/app_adc.o
-                0x000000000801f830                app_adc_get_decoded_level2
+                0x000000000801f810       0x2c build/obj/app_adc.o
+                0x000000000801f810                app_adc_start
  *fill*         0x000000000801f83c        0x4 
- .text.app_adc_get_voltage2
+ .text.app_adc_get_decoded_level
                 0x000000000801f840        0xc build/obj/app_adc.o
-                0x000000000801f840                app_adc_get_voltage2
+                0x000000000801f840                app_adc_get_decoded_level
  *fill*         0x000000000801f84c        0x4 
- .text.txend1   0x000000000801f850        0x4 build/obj/app_uartcomm.o
- *fill*         0x000000000801f854        0xc 
- .text.txend2   0x000000000801f860        0x4 build/obj/app_uartcomm.o
- *fill*         0x000000000801f864        0xc 
- .text.rxerr    0x000000000801f870        0x4 build/obj/app_uartcomm.o
- *fill*         0x000000000801f874        0xc 
- .text.rxend    0x000000000801f880        0x4 build/obj/app_uartcomm.o
+ .text.app_adc_get_voltage
+                0x000000000801f850        0xc build/obj/app_adc.o
+                0x000000000801f850                app_adc_get_voltage
+ *fill*         0x000000000801f85c        0x4 
+ .text.app_adc_get_decoded_level2
+                0x000000000801f860        0xc build/obj/app_adc.o
+                0x000000000801f860                app_adc_get_decoded_level2
+ *fill*         0x000000000801f86c        0x4 
+ .text.app_adc_get_voltage2
+                0x000000000801f870        0xc build/obj/app_adc.o
+                0x000000000801f870                app_adc_get_voltage2
+ *fill*         0x000000000801f87c        0x4 
+ .text.txend1   0x000000000801f880        0x4 build/obj/app_uartcomm.o
  *fill*         0x000000000801f884        0xc 
+ .text.txend2   0x000000000801f890        0x4 build/obj/app_uartcomm.o
+ *fill*         0x000000000801f894        0xc 
+ .text.rxerr    0x000000000801f8a0        0x4 build/obj/app_uartcomm.o
+ *fill*         0x000000000801f8a4        0xc 
+ .text.rxend    0x000000000801f8b0        0x4 build/obj/app_uartcomm.o
+ *fill*         0x000000000801f8b4        0xc 
  .text.packet_process_thread
-                0x000000000801f890       0x60 build/obj/app_uartcomm.o
- .text.rxchar   0x000000000801f8f0       0x3c build/obj/app_uartcomm.o
- *fill*         0x000000000801f92c        0x4 
+                0x000000000801f8c0       0x60 build/obj/app_uartcomm.o
+ .text.rxchar   0x000000000801f920       0x3c build/obj/app_uartcomm.o
+ *fill*         0x000000000801f95c        0x4 
  .text.process_packet
-                0x000000000801f930       0x1c build/obj/app_uartcomm.o
- *fill*         0x000000000801f94c        0x4 
+                0x000000000801f960       0x1c build/obj/app_uartcomm.o
+ *fill*         0x000000000801f97c        0x4 
  .text.send_packet_wrapper
-                0x000000000801f950        0x8 build/obj/app_uartcomm.o
- *fill*         0x000000000801f958        0x8 
+                0x000000000801f980        0x8 build/obj/app_uartcomm.o
+ *fill*         0x000000000801f988        0x8 
  .text.send_packet
-                0x000000000801f960       0x3c build/obj/app_uartcomm.o
- *fill*         0x000000000801f99c        0x4 
+                0x000000000801f990       0x3c build/obj/app_uartcomm.o
+ *fill*         0x000000000801f9cc        0x4 
  .text.app_uartcomm_start
-                0x000000000801f9a0       0x6c build/obj/app_uartcomm.o
-                0x000000000801f9a0                app_uartcomm_start
- *fill*         0x000000000801fa0c        0x4 
+                0x000000000801f9d0       0x6c build/obj/app_uartcomm.o
+                0x000000000801f9d0                app_uartcomm_start
+ *fill*         0x000000000801fa3c        0x4 
  .text.app_uartcomm_configure
-                0x000000000801fa10       0x20 build/obj/app_uartcomm.o
-                0x000000000801fa10                app_uartcomm_configure
+                0x000000000801fa40       0x20 build/obj/app_uartcomm.o
+                0x000000000801fa40                app_uartcomm_configure
  .text.output_thread
-                0x000000000801fa30      0x728 build/obj/app_nunchuk.o
- *fill*         0x0000000008020158        0x8 
+                0x000000000801fa60      0x728 build/obj/app_nunchuk.o
+ *fill*         0x0000000008020188        0x8 
  .text.app_nunchuk_configure
-                0x0000000008020160       0x1c build/obj/app_nunchuk.o
-                0x0000000008020160                app_nunchuk_configure
- *fill*         0x000000000802017c        0x4 
- .text.app_nunchuk_start
-                0x0000000008020180       0x2c build/obj/app_nunchuk.o
-                0x0000000008020180                app_nunchuk_start
+                0x0000000008020190       0x1c build/obj/app_nunchuk.o
+                0x0000000008020190                app_nunchuk_configure
  *fill*         0x00000000080201ac        0x4 
+ .text.app_nunchuk_start
+                0x00000000080201b0       0x2c build/obj/app_nunchuk.o
+                0x00000000080201b0                app_nunchuk_start
+ *fill*         0x00000000080201dc        0x4 
  .text.app_nunchuk_get_decoded_chuk
-                0x00000000080201b0       0x28 build/obj/app_nunchuk.o
-                0x00000000080201b0                app_nunchuk_get_decoded_chuk
- *fill*         0x00000000080201d8        0x8 
+                0x00000000080201e0       0x28 build/obj/app_nunchuk.o
+                0x00000000080201e0                app_nunchuk_get_decoded_chuk
+ *fill*         0x0000000008020208        0x8 
  .text.app_nunchuk_update_output
-                0x00000000080201e0       0x54 build/obj/app_nunchuk.o
-                0x00000000080201e0                app_nunchuk_update_output
- *fill*         0x0000000008020234        0xc 
+                0x0000000008020210       0x54 build/obj/app_nunchuk.o
+                0x0000000008020210                app_nunchuk_update_output
+ *fill*         0x0000000008020264        0xc 
  .text.chuk_thread
-                0x0000000008020240      0x1ac build/obj/app_nunchuk.o
- *fill*         0x00000000080203ec        0x4 
+                0x0000000008020270      0x1ac build/obj/app_nunchuk.o
+ *fill*         0x000000000802041c        0x4 
  .text.spi_sw_init
-                0x00000000080203f0       0x48 build/obj/spi_sw.o
-                0x00000000080203f0                spi_sw_init
- *fill*         0x0000000008020438        0x8 
+                0x0000000008020420       0x48 build/obj/spi_sw.o
+                0x0000000008020420                spi_sw_init
+ *fill*         0x0000000008020468        0x8 
  .text.spi_sw_transfer
-                0x0000000008020440       0xc8 build/obj/spi_sw.o
-                0x0000000008020440                spi_sw_transfer
- *fill*         0x0000000008020508        0x8 
- .text.spi_sw_begin
-                0x0000000008020510       0x28 build/obj/spi_sw.o
-                0x0000000008020510                spi_sw_begin
+                0x0000000008020470       0xc8 build/obj/spi_sw.o
+                0x0000000008020470                spi_sw_transfer
  *fill*         0x0000000008020538        0x8 
- .text.spi_sw_end
+ .text.spi_sw_begin
                 0x0000000008020540       0x28 build/obj/spi_sw.o
-                0x0000000008020540                spi_sw_end
+                0x0000000008020540                spi_sw_begin
  *fill*         0x0000000008020568        0x8 
- .text.rf_init  0x0000000008020570        0x4 build/obj/rf.o
-                0x0000000008020570                rf_init
- *fill*         0x0000000008020574        0xc 
+ .text.spi_sw_end
+                0x0000000008020570       0x28 build/obj/spi_sw.o
+                0x0000000008020570                spi_sw_end
+ *fill*         0x0000000008020598        0x8 
+ .text.rf_init  0x00000000080205a0        0x4 build/obj/rf.o
+                0x00000000080205a0                rf_init
+ *fill*         0x00000000080205a4        0xc 
  .text.rf_write_tx_payload
-                0x0000000008020580       0x30 build/obj/rf.o
-                0x0000000008020580                rf_write_tx_payload
- .text.rf_write_tx_payload_no_ack
                 0x00000000080205b0       0x30 build/obj/rf.o
-                0x00000000080205b0                rf_write_tx_payload_no_ack
- .text.rf_read_rx_payload
+                0x00000000080205b0                rf_write_tx_payload
+ .text.rf_write_tx_payload_no_ack
                 0x00000000080205e0       0x30 build/obj/rf.o
-                0x00000000080205e0                rf_read_rx_payload
+                0x00000000080205e0                rf_write_tx_payload_no_ack
+ .text.rf_read_rx_payload
+                0x0000000008020610       0x30 build/obj/rf.o
+                0x0000000008020610                rf_read_rx_payload
  .text.rf_flush_tx
-                0x0000000008020610       0x24 build/obj/rf.o
-                0x0000000008020610                rf_flush_tx
- *fill*         0x0000000008020634        0xc 
- .text.rf_flush_rx
                 0x0000000008020640       0x24 build/obj/rf.o
-                0x0000000008020640                rf_flush_rx
+                0x0000000008020640                rf_flush_tx
  *fill*         0x0000000008020664        0xc 
+ .text.rf_flush_rx
+                0x0000000008020670       0x24 build/obj/rf.o
+                0x0000000008020670                rf_flush_rx
+ *fill*         0x0000000008020694        0xc 
  .text.rf_flush_all
-                0x0000000008020670       0x10 build/obj/rf.o
-                0x0000000008020670                rf_flush_all
+                0x00000000080206a0       0x10 build/obj/rf.o
+                0x00000000080206a0                rf_flush_all
  .text.rf_get_payload_width
-                0x0000000008020680       0x34 build/obj/rf.o
-                0x0000000008020680                rf_get_payload_width
- *fill*         0x00000000080206b4        0xc 
+                0x00000000080206b0       0x34 build/obj/rf.o
+                0x00000000080206b0                rf_get_payload_width
+ *fill*         0x00000000080206e4        0xc 
  .text.rf_status
-                0x00000000080206c0       0x28 build/obj/rf.o
-                0x00000000080206c0                rf_status
- *fill*         0x00000000080206e8        0x8 
+                0x00000000080206f0       0x28 build/obj/rf.o
+                0x00000000080206f0                rf_status
+ *fill*         0x0000000008020718        0x8 
  .text.rf_write_reg
-                0x00000000080206f0       0x34 build/obj/rf.o
-                0x00000000080206f0                rf_write_reg
- *fill*         0x0000000008020724        0xc 
+                0x0000000008020720       0x34 build/obj/rf.o
+                0x0000000008020720                rf_write_reg
+ *fill*         0x0000000008020754        0xc 
  .text.rf_set_rx_addr
-                0x0000000008020730        0x8 build/obj/rf.o
-                0x0000000008020730                rf_set_rx_addr
- *fill*         0x0000000008020738        0x8 
+                0x0000000008020760        0x8 build/obj/rf.o
+                0x0000000008020760                rf_set_rx_addr
+ *fill*         0x0000000008020768        0x8 
  .text.rf_set_tx_addr
-                0x0000000008020740        0xc build/obj/rf.o
-                0x0000000008020740                rf_set_tx_addr
- *fill*         0x000000000802074c        0x4 
+                0x0000000008020770        0xc build/obj/rf.o
+                0x0000000008020770                rf_set_tx_addr
+ *fill*         0x000000000802077c        0x4 
  .text.rf_set_address_width
-                0x0000000008020750       0x1c build/obj/rf.o
-                0x0000000008020750                rf_set_address_width
- *fill*         0x000000000802076c        0x4 
+                0x0000000008020780       0x1c build/obj/rf.o
+                0x0000000008020780                rf_set_address_width
+ *fill*         0x000000000802079c        0x4 
  .text.rf_set_frequency
-                0x0000000008020770       0x20 build/obj/rf.o
-                0x0000000008020770                rf_set_frequency
+                0x00000000080207a0       0x20 build/obj/rf.o
+                0x00000000080207a0                rf_set_frequency
  .text.rf_clear_irq
-                0x0000000008020790       0x1c build/obj/rf.o
-                0x0000000008020790                rf_clear_irq
- *fill*         0x00000000080207ac        0x4 
+                0x00000000080207c0       0x1c build/obj/rf.o
+                0x00000000080207c0                rf_clear_irq
+ *fill*         0x00000000080207dc        0x4 
  .text.rf_clear_rx_irq
-                0x00000000080207b0       0x1c build/obj/rf.o
-                0x00000000080207b0                rf_clear_rx_irq
- *fill*         0x00000000080207cc        0x4 
+                0x00000000080207e0       0x1c build/obj/rf.o
+                0x00000000080207e0                rf_clear_rx_irq
+ *fill*         0x00000000080207fc        0x4 
  .text.rf_clear_maxrt_irq
-                0x00000000080207d0       0x1c build/obj/rf.o
-                0x00000000080207d0                rf_clear_maxrt_irq
- *fill*         0x00000000080207ec        0x4 
+                0x0000000008020800       0x1c build/obj/rf.o
+                0x0000000008020800                rf_clear_maxrt_irq
+ *fill*         0x000000000802081c        0x4 
  .text.rf_write_reg_byte
-                0x00000000080207f0       0x18 build/obj/rf.o
-                0x00000000080207f0                rf_write_reg_byte
- *fill*         0x0000000008020808        0x8 
+                0x0000000008020820       0x18 build/obj/rf.o
+                0x0000000008020820                rf_write_reg_byte
+ *fill*         0x0000000008020838        0x8 
  .text.rf_read_reg
-                0x0000000008020810       0x30 build/obj/rf.o
-                0x0000000008020810                rf_read_reg
+                0x0000000008020840       0x30 build/obj/rf.o
+                0x0000000008020840                rf_read_reg
  .text.rf_set_speed
-                0x0000000008020840       0x44 build/obj/rf.o
-                0x0000000008020840                rf_set_speed
- *fill*         0x0000000008020884        0xc 
+                0x0000000008020870       0x44 build/obj/rf.o
+                0x0000000008020870                rf_set_speed
+ *fill*         0x00000000080208b4        0xc 
  .text.rf_set_power
-                0x0000000008020890       0x44 build/obj/rf.o
-                0x0000000008020890                rf_set_power
- *fill*         0x00000000080208d4        0xc 
+                0x00000000080208c0       0x44 build/obj/rf.o
+                0x00000000080208c0                rf_set_power
+ *fill*         0x0000000008020904        0xc 
  .text.rf_set_crc_type
-                0x00000000080208e0       0x48 build/obj/rf.o
-                0x00000000080208e0                rf_set_crc_type
- *fill*         0x0000000008020928        0x8 
+                0x0000000008020910       0x48 build/obj/rf.o
+                0x0000000008020910                rf_set_crc_type
+ *fill*         0x0000000008020958        0x8 
  .text.rf_set_retr_retries
-                0x0000000008020930       0x38 build/obj/rf.o
-                0x0000000008020930                rf_set_retr_retries
- *fill*         0x0000000008020968        0x8 
+                0x0000000008020960       0x38 build/obj/rf.o
+                0x0000000008020960                rf_set_retr_retries
+ *fill*         0x0000000008020998        0x8 
  .text.rf_set_retr_delay
-                0x0000000008020970       0x38 build/obj/rf.o
-                0x0000000008020970                rf_set_retr_delay
- *fill*         0x00000000080209a8        0x8 
+                0x00000000080209a0       0x38 build/obj/rf.o
+                0x00000000080209a0                rf_set_retr_delay
+ *fill*         0x00000000080209d8        0x8 
  .text.rf_power_up
-                0x00000000080209b0       0x38 build/obj/rf.o
-                0x00000000080209b0                rf_power_up
- *fill*         0x00000000080209e8        0x8 
+                0x00000000080209e0       0x38 build/obj/rf.o
+                0x00000000080209e0                rf_power_up
+ *fill*         0x0000000008020a18        0x8 
  .text.rf_power_down
-                0x00000000080209f0       0x34 build/obj/rf.o
-                0x00000000080209f0                rf_power_down
- *fill*         0x0000000008020a24        0xc 
+                0x0000000008020a20       0x34 build/obj/rf.o
+                0x0000000008020a20                rf_power_down
+ *fill*         0x0000000008020a54        0xc 
  .text.rf_mode_tx
-                0x0000000008020a30       0x34 build/obj/rf.o
-                0x0000000008020a30                rf_mode_tx
- *fill*         0x0000000008020a64        0xc 
+                0x0000000008020a60       0x34 build/obj/rf.o
+                0x0000000008020a60                rf_mode_tx
+ *fill*         0x0000000008020a94        0xc 
  .text.rf_mode_rx
-                0x0000000008020a70       0x34 build/obj/rf.o
-                0x0000000008020a70                rf_mode_rx
- *fill*         0x0000000008020aa4        0xc 
+                0x0000000008020aa0       0x34 build/obj/rf.o
+                0x0000000008020aa0                rf_mode_rx
+ *fill*         0x0000000008020ad4        0xc 
  .text.rf_enable_pipe_autoack
-                0x0000000008020ab0       0x34 build/obj/rf.o
-                0x0000000008020ab0                rf_enable_pipe_autoack
- *fill*         0x0000000008020ae4        0xc 
+                0x0000000008020ae0       0x34 build/obj/rf.o
+                0x0000000008020ae0                rf_enable_pipe_autoack
+ *fill*         0x0000000008020b14        0xc 
  .text.rf_enable_pipe_address
-                0x0000000008020af0       0x38 build/obj/rf.o
-                0x0000000008020af0                rf_enable_pipe_address
- *fill*         0x0000000008020b28        0x8 
+                0x0000000008020b20       0x38 build/obj/rf.o
+                0x0000000008020b20                rf_enable_pipe_address
+ *fill*         0x0000000008020b58        0x8 
  .text.rf_enable_pipe_dlp
-                0x0000000008020b30       0x38 build/obj/rf.o
-                0x0000000008020b30                rf_enable_pipe_dlp
- *fill*         0x0000000008020b68        0x8 
+                0x0000000008020b60       0x38 build/obj/rf.o
+                0x0000000008020b60                rf_enable_pipe_dlp
+ *fill*         0x0000000008020b98        0x8 
  .text.rf_enable_features
-                0x0000000008020b70       0x38 build/obj/rf.o
-                0x0000000008020b70                rf_enable_features
- *fill*         0x0000000008020ba8        0x8 
+                0x0000000008020ba0       0x38 build/obj/rf.o
+                0x0000000008020ba0                rf_enable_features
+ *fill*         0x0000000008020bd8        0x8 
  .text.rfhelp_init
-                0x0000000008020bb0       0x7c build/obj/rfhelp.o
-                0x0000000008020bb0                rfhelp_init
- *fill*         0x0000000008020c2c        0x4 
+                0x0000000008020be0       0x7c build/obj/rfhelp.o
+                0x0000000008020be0                rfhelp_init
+ *fill*         0x0000000008020c5c        0x4 
  .text.rfhelp_restart
-                0x0000000008020c30       0xcc build/obj/rfhelp.o
-                0x0000000008020c30                rfhelp_restart
- *fill*         0x0000000008020cfc        0x4 
+                0x0000000008020c60       0xcc build/obj/rfhelp.o
+                0x0000000008020c60                rfhelp_restart
+ *fill*         0x0000000008020d2c        0x4 
  .text.rfhelp_update_conf
-                0x0000000008020d00       0x28 build/obj/rfhelp.o
-                0x0000000008020d00                rfhelp_update_conf
- *fill*         0x0000000008020d28        0x8 
+                0x0000000008020d30       0x28 build/obj/rfhelp.o
+                0x0000000008020d30                rfhelp_update_conf
+ *fill*         0x0000000008020d58        0x8 
  .text.rfhelp_send_data
-                0x0000000008020d30       0xac build/obj/rfhelp.o
-                0x0000000008020d30                rfhelp_send_data
- *fill*         0x0000000008020ddc        0x4 
+                0x0000000008020d60       0xac build/obj/rfhelp.o
+                0x0000000008020d60                rfhelp_send_data
+ *fill*         0x0000000008020e0c        0x4 
  .text.rfhelp_send_data_crc
-                0x0000000008020de0       0x44 build/obj/rfhelp.o
-                0x0000000008020de0                rfhelp_send_data_crc
- *fill*         0x0000000008020e24        0xc 
+                0x0000000008020e10       0x44 build/obj/rfhelp.o
+                0x0000000008020e10                rfhelp_send_data_crc
+ *fill*         0x0000000008020e54        0xc 
  .text.rfhelp_read_rx_data
-                0x0000000008020e30       0x64 build/obj/rfhelp.o
-                0x0000000008020e30                rfhelp_read_rx_data
- *fill*         0x0000000008020e94        0xc 
+                0x0000000008020e60       0x64 build/obj/rfhelp.o
+                0x0000000008020e60                rfhelp_read_rx_data
+ *fill*         0x0000000008020ec4        0xc 
  .text.rfhelp_read_rx_data_crc
-                0x0000000008020ea0       0x44 build/obj/rfhelp.o
-                0x0000000008020ea0                rfhelp_read_rx_data_crc
- *fill*         0x0000000008020ee4        0xc 
+                0x0000000008020ed0       0x44 build/obj/rfhelp.o
+                0x0000000008020ed0                rfhelp_read_rx_data_crc
+ *fill*         0x0000000008020f14        0xc 
  .text.rfhelp_power_up
-                0x0000000008020ef0       0x1c build/obj/rfhelp.o
-                0x0000000008020ef0                rfhelp_power_up
- *fill*         0x0000000008020f0c        0x4 
+                0x0000000008020f20       0x1c build/obj/rfhelp.o
+                0x0000000008020f20                rfhelp_power_up
+ *fill*         0x0000000008020f3c        0x4 
  .text.tx_thread
-                0x0000000008020f10       0x50 build/obj/nrf_driver.o
+                0x0000000008020f40       0x50 build/obj/nrf_driver.o
  .text.nrf_driver_send_buffer
-                0x0000000008020f60      0x1c4 build/obj/nrf_driver.o
-                0x0000000008020f60                nrf_driver_send_buffer
- *fill*         0x0000000008021124        0xc 
+                0x0000000008020f90      0x1c4 build/obj/nrf_driver.o
+                0x0000000008020f90                nrf_driver_send_buffer
+ *fill*         0x0000000008021154        0xc 
  .text.rx_thread
-                0x0000000008021130      0x1c8 build/obj/nrf_driver.o
- *fill*         0x00000000080212f8        0x8 
+                0x0000000008021160      0x1c8 build/obj/nrf_driver.o
+ *fill*         0x0000000008021328        0x8 
  .text.nrf_driver_init
-                0x0000000008021300       0x58 build/obj/nrf_driver.o
-                0x0000000008021300                nrf_driver_init
- *fill*         0x0000000008021358        0x8 
+                0x0000000008021330       0x58 build/obj/nrf_driver.o
+                0x0000000008021330                nrf_driver_init
+ *fill*         0x0000000008021388        0x8 
  .text.ADC_DeInit
-                0x0000000008021360       0x1c build/obj/stm32f4xx_adc.o
-                0x0000000008021360                ADC_DeInit
- *fill*         0x000000000802137c        0x4 
+                0x0000000008021390       0x1c build/obj/stm32f4xx_adc.o
+                0x0000000008021390                ADC_DeInit
+ *fill*         0x00000000080213ac        0x4 
  .text.ADC_Init
-                0x0000000008021380       0x50 build/obj/stm32f4xx_adc.o
-                0x0000000008021380                ADC_Init
+                0x00000000080213b0       0x50 build/obj/stm32f4xx_adc.o
+                0x00000000080213b0                ADC_Init
  .text.ADC_CommonInit
-                0x00000000080213d0       0x28 build/obj/stm32f4xx_adc.o
-                0x00000000080213d0                ADC_CommonInit
- *fill*         0x00000000080213f8        0x8 
- .text.ADC_Cmd  0x0000000008021400       0x14 build/obj/stm32f4xx_adc.o
-                0x0000000008021400                ADC_Cmd
- *fill*         0x0000000008021414        0xc 
+                0x0000000008021400       0x28 build/obj/stm32f4xx_adc.o
+                0x0000000008021400                ADC_CommonInit
+ *fill*         0x0000000008021428        0x8 
+ .text.ADC_Cmd  0x0000000008021430       0x14 build/obj/stm32f4xx_adc.o
+                0x0000000008021430                ADC_Cmd
+ *fill*         0x0000000008021444        0xc 
  .text.ADC_TempSensorVrefintCmd
-                0x0000000008021420       0x1c build/obj/stm32f4xx_adc.o
-                0x0000000008021420                ADC_TempSensorVrefintCmd
- *fill*         0x000000000802143c        0x4 
+                0x0000000008021450       0x1c build/obj/stm32f4xx_adc.o
+                0x0000000008021450                ADC_TempSensorVrefintCmd
+ *fill*         0x000000000802146c        0x4 
  .text.ADC_RegularChannelConfig
-                0x0000000008021440       0x8c build/obj/stm32f4xx_adc.o
-                0x0000000008021440                ADC_RegularChannelConfig
- *fill*         0x00000000080214cc        0x4 
+                0x0000000008021470       0x8c build/obj/stm32f4xx_adc.o
+                0x0000000008021470                ADC_RegularChannelConfig
+ *fill*         0x00000000080214fc        0x4 
  .text.ADC_MultiModeDMARequestAfterLastTransferCmd
-                0x00000000080214d0       0x1c build/obj/stm32f4xx_adc.o
-                0x00000000080214d0                ADC_MultiModeDMARequestAfterLastTransferCmd
- *fill*         0x00000000080214ec        0x4 
+                0x0000000008021500       0x1c build/obj/stm32f4xx_adc.o
+                0x0000000008021500                ADC_MultiModeDMARequestAfterLastTransferCmd
+ *fill*         0x000000000802151c        0x4 
  .text.ADC_InjectedChannelConfig
-                0x00000000080214f0       0x58 build/obj/stm32f4xx_adc.o
-                0x00000000080214f0                ADC_InjectedChannelConfig
- *fill*         0x0000000008021548        0x8 
+                0x0000000008021520       0x58 build/obj/stm32f4xx_adc.o
+                0x0000000008021520                ADC_InjectedChannelConfig
+ *fill*         0x0000000008021578        0x8 
  .text.ADC_InjectedSequencerLengthConfig
-                0x0000000008021550       0x10 build/obj/stm32f4xx_adc.o
-                0x0000000008021550                ADC_InjectedSequencerLengthConfig
+                0x0000000008021580       0x10 build/obj/stm32f4xx_adc.o
+                0x0000000008021580                ADC_InjectedSequencerLengthConfig
  .text.ADC_ExternalTrigInjectedConvConfig
-                0x0000000008021560        0xc build/obj/stm32f4xx_adc.o
-                0x0000000008021560                ADC_ExternalTrigInjectedConvConfig
- *fill*         0x000000000802156c        0x4 
- .text.ADC_ExternalTrigInjectedConvEdgeConfig
-                0x0000000008021570        0xc build/obj/stm32f4xx_adc.o
-                0x0000000008021570                ADC_ExternalTrigInjectedConvEdgeConfig
- *fill*         0x000000000802157c        0x4 
- .text.ADC_GetInjectedConversionValue
-                0x0000000008021580       0x1c build/obj/stm32f4xx_adc.o
-                0x0000000008021580                ADC_GetInjectedConversionValue
+                0x0000000008021590        0xc build/obj/stm32f4xx_adc.o
+                0x0000000008021590                ADC_ExternalTrigInjectedConvConfig
  *fill*         0x000000000802159c        0x4 
+ .text.ADC_ExternalTrigInjectedConvEdgeConfig
+                0x00000000080215a0        0xc build/obj/stm32f4xx_adc.o
+                0x00000000080215a0                ADC_ExternalTrigInjectedConvEdgeConfig
+ *fill*         0x00000000080215ac        0x4 
+ .text.ADC_GetInjectedConversionValue
+                0x00000000080215b0       0x1c build/obj/stm32f4xx_adc.o
+                0x00000000080215b0                ADC_GetInjectedConversionValue
+ *fill*         0x00000000080215cc        0x4 
  .text.ADC_ITConfig
-                0x00000000080215a0       0x1c build/obj/stm32f4xx_adc.o
-                0x00000000080215a0                ADC_ITConfig
- *fill*         0x00000000080215bc        0x4 
+                0x00000000080215d0       0x1c build/obj/stm32f4xx_adc.o
+                0x00000000080215d0                ADC_ITConfig
+ *fill*         0x00000000080215ec        0x4 
  .text.ADC_ClearITPendingBit
-                0x00000000080215c0        0x8 build/obj/stm32f4xx_adc.o
-                0x00000000080215c0                ADC_ClearITPendingBit
- *fill*         0x00000000080215c8        0x8 
+                0x00000000080215f0        0x8 build/obj/stm32f4xx_adc.o
+                0x00000000080215f0                ADC_ClearITPendingBit
+ *fill*         0x00000000080215f8        0x8 
  .text.DMA_DeInit
-                0x00000000080215d0      0x130 build/obj/stm32f4xx_dma.o
-                0x00000000080215d0                DMA_DeInit
+                0x0000000008021600      0x130 build/obj/stm32f4xx_dma.o
+                0x0000000008021600                DMA_DeInit
  .text.DMA_Init
-                0x0000000008021700       0x70 build/obj/stm32f4xx_dma.o
-                0x0000000008021700                DMA_Init
- .text.DMA_Cmd  0x0000000008021770       0x14 build/obj/stm32f4xx_dma.o
-                0x0000000008021770                DMA_Cmd
- *fill*         0x0000000008021784        0xc 
+                0x0000000008021730       0x70 build/obj/stm32f4xx_dma.o
+                0x0000000008021730                DMA_Init
+ .text.DMA_Cmd  0x00000000080217a0       0x14 build/obj/stm32f4xx_dma.o
+                0x00000000080217a0                DMA_Cmd
+ *fill*         0x00000000080217b4        0xc 
  .text.DMA_ITConfig
-                0x0000000008021790       0x40 build/obj/stm32f4xx_dma.o
-                0x0000000008021790                DMA_ITConfig
+                0x00000000080217c0       0x40 build/obj/stm32f4xx_dma.o
+                0x00000000080217c0                DMA_ITConfig
  .text.EXTI_GetITStatus
-                0x00000000080217d0       0x14 build/obj/stm32f4xx_exti.o
-                0x00000000080217d0                EXTI_GetITStatus
- *fill*         0x00000000080217e4        0xc 
+                0x0000000008021800       0x14 build/obj/stm32f4xx_exti.o
+                0x0000000008021800                EXTI_GetITStatus
+ *fill*         0x0000000008021814        0xc 
  .text.EXTI_ClearITPendingBit
-                0x00000000080217f0        0xc build/obj/stm32f4xx_exti.o
-                0x00000000080217f0                EXTI_ClearITPendingBit
- *fill*         0x00000000080217fc        0x4 
- .text.FLASH_Unlock
-                0x0000000008021800       0x20 build/obj/stm32f4xx_flash.o
-                0x0000000008021800                FLASH_Unlock
- .text.FLASH_ClearFlag
-                0x0000000008021820        0xc build/obj/stm32f4xx_flash.o
-                0x0000000008021820                FLASH_ClearFlag
+                0x0000000008021820        0xc build/obj/stm32f4xx_exti.o
+                0x0000000008021820                EXTI_ClearITPendingBit
  *fill*         0x000000000802182c        0x4 
+ .text.FLASH_Unlock
+                0x0000000008021830       0x20 build/obj/stm32f4xx_flash.o
+                0x0000000008021830                FLASH_Unlock
+ .text.FLASH_ClearFlag
+                0x0000000008021850        0xc build/obj/stm32f4xx_flash.o
+                0x0000000008021850                FLASH_ClearFlag
+ *fill*         0x000000000802185c        0x4 
  .text.FLASH_GetStatus
-                0x0000000008021830       0x40 build/obj/stm32f4xx_flash.o
-                0x0000000008021830                FLASH_GetStatus
+                0x0000000008021860       0x40 build/obj/stm32f4xx_flash.o
+                0x0000000008021860                FLASH_GetStatus
  .text.FLASH_WaitForLastOperation
-                0x0000000008021870       0x28 build/obj/stm32f4xx_flash.o
-                0x0000000008021870                FLASH_WaitForLastOperation
- *fill*         0x0000000008021898        0x8 
+                0x00000000080218a0       0x28 build/obj/stm32f4xx_flash.o
+                0x00000000080218a0                FLASH_WaitForLastOperation
+ *fill*         0x00000000080218c8        0x8 
  .text.FLASH_EraseSector
-                0x00000000080218a0       0x74 build/obj/stm32f4xx_flash.o
-                0x00000000080218a0                FLASH_EraseSector
- *fill*         0x0000000008021914        0xc 
+                0x00000000080218d0       0x74 build/obj/stm32f4xx_flash.o
+                0x00000000080218d0                FLASH_EraseSector
+ *fill*         0x0000000008021944        0xc 
  .text.FLASH_ProgramHalfWord
-                0x0000000008021920       0x40 build/obj/stm32f4xx_flash.o
-                0x0000000008021920                FLASH_ProgramHalfWord
+                0x0000000008021950       0x40 build/obj/stm32f4xx_flash.o
+                0x0000000008021950                FLASH_ProgramHalfWord
  .text.FLASH_ProgramByte
-                0x0000000008021960       0x3c build/obj/stm32f4xx_flash.o
-                0x0000000008021960                FLASH_ProgramByte
- *fill*         0x000000000802199c        0x4 
+                0x0000000008021990       0x3c build/obj/stm32f4xx_flash.o
+                0x0000000008021990                FLASH_ProgramByte
+ *fill*         0x00000000080219cc        0x4 
  .text.RCC_AHB1PeriphClockCmd
-                0x00000000080219a0       0x18 build/obj/stm32f4xx_rcc.o
-                0x00000000080219a0                RCC_AHB1PeriphClockCmd
- *fill*         0x00000000080219b8        0x8 
+                0x00000000080219d0       0x18 build/obj/stm32f4xx_rcc.o
+                0x00000000080219d0                RCC_AHB1PeriphClockCmd
+ *fill*         0x00000000080219e8        0x8 
  .text.RCC_APB1PeriphClockCmd
-                0x00000000080219c0       0x18 build/obj/stm32f4xx_rcc.o
-                0x00000000080219c0                RCC_APB1PeriphClockCmd
- *fill*         0x00000000080219d8        0x8 
+                0x00000000080219f0       0x18 build/obj/stm32f4xx_rcc.o
+                0x00000000080219f0                RCC_APB1PeriphClockCmd
+ *fill*         0x0000000008021a08        0x8 
  .text.RCC_APB2PeriphClockCmd
-                0x00000000080219e0       0x18 build/obj/stm32f4xx_rcc.o
-                0x00000000080219e0                RCC_APB2PeriphClockCmd
- *fill*         0x00000000080219f8        0x8 
+                0x0000000008021a10       0x18 build/obj/stm32f4xx_rcc.o
+                0x0000000008021a10                RCC_APB2PeriphClockCmd
+ *fill*         0x0000000008021a28        0x8 
  .text.RCC_APB1PeriphResetCmd
-                0x0000000008021a00       0x18 build/obj/stm32f4xx_rcc.o
-                0x0000000008021a00                RCC_APB1PeriphResetCmd
- *fill*         0x0000000008021a18        0x8 
+                0x0000000008021a30       0x18 build/obj/stm32f4xx_rcc.o
+                0x0000000008021a30                RCC_APB1PeriphResetCmd
+ *fill*         0x0000000008021a48        0x8 
  .text.RCC_APB2PeriphResetCmd
-                0x0000000008021a20       0x18 build/obj/stm32f4xx_rcc.o
-                0x0000000008021a20                RCC_APB2PeriphResetCmd
- *fill*         0x0000000008021a38        0x8 
+                0x0000000008021a50       0x18 build/obj/stm32f4xx_rcc.o
+                0x0000000008021a50                RCC_APB2PeriphResetCmd
+ *fill*         0x0000000008021a68        0x8 
  .text.TIM_DeInit
-                0x0000000008021a40      0x1b8 build/obj/stm32f4xx_tim.o
-                0x0000000008021a40                TIM_DeInit
- *fill*         0x0000000008021bf8        0x8 
+                0x0000000008021a70      0x1b8 build/obj/stm32f4xx_tim.o
+                0x0000000008021a70                TIM_DeInit
+ *fill*         0x0000000008021c28        0x8 
  .text.TIM_TimeBaseInit
-                0x0000000008021c00       0x98 build/obj/stm32f4xx_tim.o
-                0x0000000008021c00                TIM_TimeBaseInit
- *fill*         0x0000000008021c98        0x8 
+                0x0000000008021c30       0x98 build/obj/stm32f4xx_tim.o
+                0x0000000008021c30                TIM_TimeBaseInit
+ *fill*         0x0000000008021cc8        0x8 
  .text.TIM_ARRPreloadConfig
-                0x0000000008021ca0       0x18 build/obj/stm32f4xx_tim.o
-                0x0000000008021ca0                TIM_ARRPreloadConfig
- *fill*         0x0000000008021cb8        0x8 
- .text.TIM_Cmd  0x0000000008021cc0       0x18 build/obj/stm32f4xx_tim.o
-                0x0000000008021cc0                TIM_Cmd
- *fill*         0x0000000008021cd8        0x8 
+                0x0000000008021cd0       0x18 build/obj/stm32f4xx_tim.o
+                0x0000000008021cd0                TIM_ARRPreloadConfig
+ *fill*         0x0000000008021ce8        0x8 
+ .text.TIM_Cmd  0x0000000008021cf0       0x18 build/obj/stm32f4xx_tim.o
+                0x0000000008021cf0                TIM_Cmd
+ *fill*         0x0000000008021d08        0x8 
  .text.TIM_OC1Init
-                0x0000000008021ce0       0x7c build/obj/stm32f4xx_tim.o
-                0x0000000008021ce0                TIM_OC1Init
- *fill*         0x0000000008021d5c        0x4 
+                0x0000000008021d10       0x7c build/obj/stm32f4xx_tim.o
+                0x0000000008021d10                TIM_OC1Init
+ *fill*         0x0000000008021d8c        0x4 
  .text.TIM_OC2Init
-                0x0000000008021d60       0x98 build/obj/stm32f4xx_tim.o
-                0x0000000008021d60                TIM_OC2Init
- *fill*         0x0000000008021df8        0x8 
+                0x0000000008021d90       0x98 build/obj/stm32f4xx_tim.o
+                0x0000000008021d90                TIM_OC2Init
+ *fill*         0x0000000008021e28        0x8 
  .text.TIM_OC3Init
-                0x0000000008021e00       0x90 build/obj/stm32f4xx_tim.o
-                0x0000000008021e00                TIM_OC3Init
+                0x0000000008021e30       0x90 build/obj/stm32f4xx_tim.o
+                0x0000000008021e30                TIM_OC3Init
  .text.TIM_OC4Init
-                0x0000000008021e90       0x74 build/obj/stm32f4xx_tim.o
-                0x0000000008021e90                TIM_OC4Init
- *fill*         0x0000000008021f04        0xc 
+                0x0000000008021ec0       0x74 build/obj/stm32f4xx_tim.o
+                0x0000000008021ec0                TIM_OC4Init
+ *fill*         0x0000000008021f34        0xc 
  .text.TIM_SelectOCxM
-                0x0000000008021f10       0x50 build/obj/stm32f4xx_tim.o
-                0x0000000008021f10                TIM_SelectOCxM
+                0x0000000008021f40       0x50 build/obj/stm32f4xx_tim.o
+                0x0000000008021f40                TIM_SelectOCxM
  .text.TIM_OC1PreloadConfig
-                0x0000000008021f60       0x10 build/obj/stm32f4xx_tim.o
-                0x0000000008021f60                TIM_OC1PreloadConfig
- .text.TIM_OC2PreloadConfig
-                0x0000000008021f70       0x14 build/obj/stm32f4xx_tim.o
-                0x0000000008021f70                TIM_OC2PreloadConfig
- *fill*         0x0000000008021f84        0xc 
- .text.TIM_OC3PreloadConfig
                 0x0000000008021f90       0x10 build/obj/stm32f4xx_tim.o
-                0x0000000008021f90                TIM_OC3PreloadConfig
- .text.TIM_OC4PreloadConfig
+                0x0000000008021f90                TIM_OC1PreloadConfig
+ .text.TIM_OC2PreloadConfig
                 0x0000000008021fa0       0x14 build/obj/stm32f4xx_tim.o
-                0x0000000008021fa0                TIM_OC4PreloadConfig
+                0x0000000008021fa0                TIM_OC2PreloadConfig
  *fill*         0x0000000008021fb4        0xc 
+ .text.TIM_OC3PreloadConfig
+                0x0000000008021fc0       0x10 build/obj/stm32f4xx_tim.o
+                0x0000000008021fc0                TIM_OC3PreloadConfig
+ .text.TIM_OC4PreloadConfig
+                0x0000000008021fd0       0x14 build/obj/stm32f4xx_tim.o
+                0x0000000008021fd0                TIM_OC4PreloadConfig
+ *fill*         0x0000000008021fe4        0xc 
  .text.TIM_CCxCmd
-                0x0000000008021fc0       0x20 build/obj/stm32f4xx_tim.o
-                0x0000000008021fc0                TIM_CCxCmd
+                0x0000000008021ff0       0x20 build/obj/stm32f4xx_tim.o
+                0x0000000008021ff0                TIM_CCxCmd
  .text.TIM_CCxNCmd
-                0x0000000008021fe0       0x20 build/obj/stm32f4xx_tim.o
-                0x0000000008021fe0                TIM_CCxNCmd
+                0x0000000008022010       0x20 build/obj/stm32f4xx_tim.o
+                0x0000000008022010                TIM_CCxNCmd
  .text.TIM_BDTRConfig
-                0x0000000008022000       0x28 build/obj/stm32f4xx_tim.o
-                0x0000000008022000                TIM_BDTRConfig
- *fill*         0x0000000008022028        0x8 
+                0x0000000008022030       0x28 build/obj/stm32f4xx_tim.o
+                0x0000000008022030                TIM_BDTRConfig
+ *fill*         0x0000000008022058        0x8 
  .text.TIM_CtrlPWMOutputs
-                0x0000000008022030       0x14 build/obj/stm32f4xx_tim.o
-                0x0000000008022030                TIM_CtrlPWMOutputs
- *fill*         0x0000000008022044        0xc 
- .text.TIM_CCPreloadControl
-                0x0000000008022050       0x18 build/obj/stm32f4xx_tim.o
-                0x0000000008022050                TIM_CCPreloadControl
- *fill*         0x0000000008022068        0x8 
- .text.TIM_GenerateEvent
-                0x0000000008022070        0x4 build/obj/stm32f4xx_tim.o
-                0x0000000008022070                TIM_GenerateEvent
+                0x0000000008022060       0x14 build/obj/stm32f4xx_tim.o
+                0x0000000008022060                TIM_CtrlPWMOutputs
  *fill*         0x0000000008022074        0xc 
- .text.TIM_SelectInputTrigger
-                0x0000000008022080       0x10 build/obj/stm32f4xx_tim.o
-                0x0000000008022080                TIM_SelectInputTrigger
- .text.TIM_SelectOutputTrigger
-                0x0000000008022090       0x14 build/obj/stm32f4xx_tim.o
-                0x0000000008022090                TIM_SelectOutputTrigger
+ .text.TIM_CCPreloadControl
+                0x0000000008022080       0x18 build/obj/stm32f4xx_tim.o
+                0x0000000008022080                TIM_CCPreloadControl
+ *fill*         0x0000000008022098        0x8 
+ .text.TIM_GenerateEvent
+                0x00000000080220a0        0x4 build/obj/stm32f4xx_tim.o
+                0x00000000080220a0                TIM_GenerateEvent
  *fill*         0x00000000080220a4        0xc 
+ .text.TIM_SelectInputTrigger
+                0x00000000080220b0       0x10 build/obj/stm32f4xx_tim.o
+                0x00000000080220b0                TIM_SelectInputTrigger
+ .text.TIM_SelectOutputTrigger
+                0x00000000080220c0       0x14 build/obj/stm32f4xx_tim.o
+                0x00000000080220c0                TIM_SelectOutputTrigger
+ *fill*         0x00000000080220d4        0xc 
  .text.TIM_SelectSlaveMode
-                0x00000000080220b0       0x14 build/obj/stm32f4xx_tim.o
-                0x00000000080220b0                TIM_SelectSlaveMode
- *fill*         0x00000000080220c4        0xc 
+                0x00000000080220e0       0x14 build/obj/stm32f4xx_tim.o
+                0x00000000080220e0                TIM_SelectSlaveMode
+ *fill*         0x00000000080220f4        0xc 
  .text.TIM_SelectMasterSlaveMode
-                0x00000000080220d0       0x14 build/obj/stm32f4xx_tim.o
-                0x00000000080220d0                TIM_SelectMasterSlaveMode
- *fill*         0x00000000080220e4        0xc 
+                0x0000000008022100       0x14 build/obj/stm32f4xx_tim.o
+                0x0000000008022100                TIM_SelectMasterSlaveMode
+ *fill*         0x0000000008022114        0xc 
  .text.WWDG_DeInit
-                0x00000000080220f0       0x1c build/obj/stm32f4xx_wwdg.o
-                0x00000000080220f0                WWDG_DeInit
- *fill*         0x000000000802210c        0x4 
+                0x0000000008022120       0x1c build/obj/stm32f4xx_wwdg.o
+                0x0000000008022120                WWDG_DeInit
+ *fill*         0x000000000802213c        0x4 
  .text.WWDG_SetPrescaler
-                0x0000000008022110       0x14 build/obj/stm32f4xx_wwdg.o
-                0x0000000008022110                WWDG_SetPrescaler
- *fill*         0x0000000008022124        0xc 
+                0x0000000008022140       0x14 build/obj/stm32f4xx_wwdg.o
+                0x0000000008022140                WWDG_SetPrescaler
+ *fill*         0x0000000008022154        0xc 
  .text.WWDG_SetWindowValue
-                0x0000000008022130       0x28 build/obj/stm32f4xx_wwdg.o
-                0x0000000008022130                WWDG_SetWindowValue
- *fill*         0x0000000008022158        0x8 
+                0x0000000008022160       0x28 build/obj/stm32f4xx_wwdg.o
+                0x0000000008022160                WWDG_SetWindowValue
+ *fill*         0x0000000008022188        0x8 
  .text.WWDG_SetCounter
-                0x0000000008022160       0x10 build/obj/stm32f4xx_wwdg.o
-                0x0000000008022160                WWDG_SetCounter
+                0x0000000008022190       0x10 build/obj/stm32f4xx_wwdg.o
+                0x0000000008022190                WWDG_SetCounter
  .text.WWDG_Enable
-                0x0000000008022170       0x10 build/obj/stm32f4xx_wwdg.o
-                0x0000000008022170                WWDG_Enable
- .text.cosf     0x0000000008022180       0x78 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
-                0x0000000008022180                cosf
- *fill*         0x00000000080221f8        0x8 
- .text.roundf   0x0000000008022200       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_round.o)
-                0x0000000008022200                roundf
- .text.sinf     0x0000000008022260       0x7c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
-                0x0000000008022260                sinf
- *fill*         0x00000000080222dc        0x4 
- .text.sqrt     0x00000000080222e0       0xbc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-w_sqrt.o)
-                0x00000000080222e0                sqrt
- *fill*         0x000000000802239c        0x4 
- .text.asinf    0x00000000080223a0       0xbc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_asin.o)
-                0x00000000080223a0                asinf
- *fill*         0x000000000802245c        0x4 
- .text.atan2f   0x0000000008022460        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_atan2.o)
-                0x0000000008022460                atan2f
- *fill*         0x0000000008022464        0xc 
- .text.fmodf    0x0000000008022470       0xcc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_fmod.o)
-                0x0000000008022470                fmodf
- *fill*         0x000000000802253c        0x4 
- .text.logf     0x0000000008022540      0x100 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_log.o)
-                0x0000000008022540                logf
- .text.powf     0x0000000008022640      0x344 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_pow.o)
-                0x0000000008022640                powf
- *fill*         0x0000000008022984        0xc 
- .text.sincosf  0x0000000008022990       0x28 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_sincos.o)
-                0x0000000008022990                sincosf
- *fill*         0x00000000080229b8        0x8 
- .text.sqrtf    0x00000000080229c0       0xb8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_sqrt.o)
-                0x00000000080229c0                sqrtf
- *fill*         0x0000000008022a78        0x8 
+                0x00000000080221a0       0x10 build/obj/stm32f4xx_wwdg.o
+                0x00000000080221a0                WWDG_Enable
+ .text.cosf     0x00000000080221b0       0x78 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+                0x00000000080221b0                cosf
+ *fill*         0x0000000008022228        0x8 
+ .text.roundf   0x0000000008022230       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_round.o)
+                0x0000000008022230                roundf
+ .text.sinf     0x0000000008022290       0x7c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+                0x0000000008022290                sinf
+ *fill*         0x000000000802230c        0x4 
+ .text.sqrt     0x0000000008022310       0xbc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-w_sqrt.o)
+                0x0000000008022310                sqrt
+ *fill*         0x00000000080223cc        0x4 
+ .text.asinf    0x00000000080223d0       0xbc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_asin.o)
+                0x00000000080223d0                asinf
+ *fill*         0x000000000802248c        0x4 
+ .text.atan2f   0x0000000008022490        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_atan2.o)
+                0x0000000008022490                atan2f
+ *fill*         0x0000000008022494        0xc 
+ .text.fmodf    0x00000000080224a0       0xcc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_fmod.o)
+                0x00000000080224a0                fmodf
+ *fill*         0x000000000802256c        0x4 
+ .text.logf     0x0000000008022570      0x100 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_log.o)
+                0x0000000008022570                logf
+ .text.powf     0x0000000008022670      0x344 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_pow.o)
+                0x0000000008022670                powf
+ *fill*         0x00000000080229b4        0xc 
+ .text.sincosf  0x00000000080229c0       0x28 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_sincos.o)
+                0x00000000080229c0                sincosf
+ *fill*         0x00000000080229e8        0x8 
+ .text.sqrtf    0x00000000080229f0       0xb8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_sqrt.o)
+                0x00000000080229f0                sqrtf
+ *fill*         0x0000000008022aa8        0x8 
  .text.__ieee754_sqrt
-                0x0000000008022a80      0x1a8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-e_sqrt.o)
-                0x0000000008022a80                __ieee754_sqrt
- *fill*         0x0000000008022c28        0x8 
+                0x0000000008022ab0      0x1a8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-e_sqrt.o)
+                0x0000000008022ab0                __ieee754_sqrt
+ *fill*         0x0000000008022c58        0x8 
  .text.__ieee754_asinf
-                0x0000000008022c30      0x1f8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_asin.o)
-                0x0000000008022c30                __ieee754_asinf
- *fill*         0x0000000008022e28        0x8 
+                0x0000000008022c60      0x1f8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_asin.o)
+                0x0000000008022c60                __ieee754_asinf
+ *fill*         0x0000000008022e58        0x8 
  .text.__ieee754_atan2f
-                0x0000000008022e30      0x16c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_atan2.o)
-                0x0000000008022e30                __ieee754_atan2f
- *fill*         0x0000000008022f9c        0x4 
+                0x0000000008022e60      0x16c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_atan2.o)
+                0x0000000008022e60                __ieee754_atan2f
+ *fill*         0x0000000008022fcc        0x4 
  .text.__ieee754_fmodf
-                0x0000000008022fa0      0x11c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_fmod.o)
-                0x0000000008022fa0                __ieee754_fmodf
- *fill*         0x00000000080230bc        0x4 
+                0x0000000008022fd0      0x11c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_fmod.o)
+                0x0000000008022fd0                __ieee754_fmodf
+ *fill*         0x00000000080230ec        0x4 
  .text.__ieee754_logf
-                0x00000000080230c0      0x218 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_log.o)
-                0x00000000080230c0                __ieee754_logf
- *fill*         0x00000000080232d8        0x8 
+                0x00000000080230f0      0x218 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_log.o)
+                0x00000000080230f0                __ieee754_logf
+ *fill*         0x0000000008023308        0x8 
  .text.__ieee754_powf
-                0x00000000080232e0      0x5f0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
-                0x00000000080232e0                __ieee754_powf
+                0x0000000008023310      0x5f0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
+                0x0000000008023310                __ieee754_powf
  .text.__ieee754_rem_pio2f
-                0x00000000080238d0      0x290 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
-                0x00000000080238d0                __ieee754_rem_pio2f
+                0x0000000008023900      0x290 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+                0x0000000008023900                __ieee754_rem_pio2f
  .text.__ieee754_sqrtf
-                0x0000000008023b60       0xa4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_sqrt.o)
-                0x0000000008023b60                __ieee754_sqrtf
- *fill*         0x0000000008023c04        0xc 
+                0x0000000008023b90       0xa4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_sqrt.o)
+                0x0000000008023b90                __ieee754_sqrtf
+ *fill*         0x0000000008023c34        0xc 
  .text.__kernel_cosf
-                0x0000000008023c10      0x104 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
-                0x0000000008023c10                __kernel_cosf
- *fill*         0x0000000008023d14        0xc 
+                0x0000000008023c40      0x104 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+                0x0000000008023c40                __kernel_cosf
+ *fill*         0x0000000008023d44        0xc 
  .text.__kernel_rem_pio2f
-                0x0000000008023d20      0x5e4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
-                0x0000000008023d20                __kernel_rem_pio2f
- *fill*         0x0000000008024304        0xc 
+                0x0000000008023d50      0x5e4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000008023d50                __kernel_rem_pio2f
+ *fill*         0x0000000008024334        0xc 
  .text.__kernel_sinf
-                0x0000000008024310       0x90 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
-                0x0000000008024310                __kernel_sinf
+                0x0000000008024340       0x90 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+                0x0000000008024340                __kernel_sinf
  .text.__fpclassifyd
-                0x00000000080243a0       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_fpclassify.o)
-                0x00000000080243a0                __fpclassifyd
- *fill*         0x00000000080243fc        0x4 
- .text.matherr  0x0000000008024400        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_matherr.o)
-                0x0000000008024400                matherr
- *fill*         0x0000000008024404        0xc 
- .text.nan      0x0000000008024410       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_nan.o)
-                0x0000000008024410                nan
- .text.rint     0x0000000008024420      0x124 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_rint.o)
-                0x0000000008024420                rint
- *fill*         0x0000000008024544        0xc 
- .text.atanf    0x0000000008024550      0x1b8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_atan.o)
-                0x0000000008024550                atanf
- *fill*         0x0000000008024708        0x8 
- .text.fabsf    0x0000000008024710       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
-                0x0000000008024710                fabsf
- .text.finitef  0x0000000008024720       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_finite.o)
-                0x0000000008024720                finitef
- *fill*         0x0000000008024734        0xc 
- .text.floorf   0x0000000008024740       0x90 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
-                0x0000000008024740                floorf
+                0x00000000080243d0       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_fpclassify.o)
+                0x00000000080243d0                __fpclassifyd
+ *fill*         0x000000000802442c        0x4 
+ .text.matherr  0x0000000008024430        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_matherr.o)
+                0x0000000008024430                matherr
+ *fill*         0x0000000008024434        0xc 
+ .text.nan      0x0000000008024440       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_nan.o)
+                0x0000000008024440                nan
+ .text.rint     0x0000000008024450      0x124 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_rint.o)
+                0x0000000008024450                rint
+ *fill*         0x0000000008024574        0xc 
+ .text.atanf    0x0000000008024580      0x1b8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_atan.o)
+                0x0000000008024580                atanf
+ *fill*         0x0000000008024738        0x8 
+ .text.fabsf    0x0000000008024740       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+                0x0000000008024740                fabsf
+ .text.finitef  0x0000000008024750       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_finite.o)
+                0x0000000008024750                finitef
+ *fill*         0x0000000008024764        0xc 
+ .text.floorf   0x0000000008024770       0x90 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+                0x0000000008024770                floorf
  .text.__fpclassifyf
-                0x00000000080247d0       0x38 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fpclassify.o)
-                0x00000000080247d0                __fpclassifyf
- *fill*         0x0000000008024808        0x8 
- .text.nanf     0x0000000008024810        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_nan.o)
-                0x0000000008024810                nanf
- *fill*         0x000000000802481c        0x4 
- .text.scalbnf  0x0000000008024820       0xd0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
-                0x0000000008024820                scalbnf
+                0x0000000008024800       0x38 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fpclassify.o)
+                0x0000000008024800                __fpclassifyf
+ *fill*         0x0000000008024838        0x8 
+ .text.nanf     0x0000000008024840        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_nan.o)
+                0x0000000008024840                nanf
+ *fill*         0x000000000802484c        0x4 
+ .text.scalbnf  0x0000000008024850       0xd0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+                0x0000000008024850                scalbnf
  .text.copysignf
-                0x00000000080248f0       0x18 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
-                0x00000000080248f0                copysignf
- *fill*         0x0000000008024908        0x8 
- .text.__errno  0x0000000008024910        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-errno.o)
-                0x0000000008024910                __errno
- *fill*         0x000000000802491c        0x4 
- .text.memcmp   0x0000000008024920       0x64 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memcmp.o)
-                0x0000000008024920                memcmp
- *fill*         0x0000000008024984        0xc 
- .text.memset   0x0000000008024990       0x9c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memset.o)
-                0x0000000008024990                memset
- *fill*         0x0000000008024a2c        0x4 
- .text.sscanf   0x0000000008024a30       0x58 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-sscanf.o)
-                0x0000000008024a30                sscanf
- *fill*         0x0000000008024a88        0x8 
+                0x0000000008024920       0x18 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+                0x0000000008024920                copysignf
+ *fill*         0x0000000008024938        0x8 
+ .text.__errno  0x0000000008024940        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-errno.o)
+                0x0000000008024940                __errno
+ *fill*         0x000000000802494c        0x4 
+ .text.memcmp   0x0000000008024950       0x64 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memcmp.o)
+                0x0000000008024950                memcmp
+ *fill*         0x00000000080249b4        0xc 
+ .text.memset   0x00000000080249c0       0x9c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memset.o)
+                0x00000000080249c0                memset
+ *fill*         0x0000000008024a5c        0x4 
+ .text.sscanf   0x0000000008024a60       0x58 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-sscanf.o)
+                0x0000000008024a60                sscanf
+ *fill*         0x0000000008024ab8        0x8 
  .text.__seofread
-                0x0000000008024a90        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-stdio.o)
-                0x0000000008024a90                __seofread
- *fill*         0x0000000008024a94        0xc 
- .text.strlen   0x0000000008024aa0       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strlen.o)
-                0x0000000008024aa0                strlen
- *fill*         0x0000000008024afc        0x4 
- .text.strtok   0x0000000008024b00       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtok.o)
-                0x0000000008024b00                strtok
+                0x0000000008024ac0        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-stdio.o)
+                0x0000000008024ac0                __seofread
+ *fill*         0x0000000008024ac4        0xc 
+ .text.strlen   0x0000000008024ad0       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strlen.o)
+                0x0000000008024ad0                strlen
+ *fill*         0x0000000008024b2c        0x4 
+ .text.strtok   0x0000000008024b30       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtok.o)
+                0x0000000008024b30                strtok
  .text.__strtok_r
-                0x0000000008024b10       0x64 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtok_r.o)
-                0x0000000008024b10                __strtok_r
- *fill*         0x0000000008024b74        0xc 
+                0x0000000008024b40       0x64 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtok_r.o)
+                0x0000000008024b40                __strtok_r
+ *fill*         0x0000000008024ba4        0xc 
  .text.__ssvfscanf_r
-                0x0000000008024b80      0xe5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfscanf.o)
-                0x0000000008024b80                __ssvfscanf_r
- *fill*         0x00000000080259dc        0x4 
+                0x0000000008024bb0      0xe5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfscanf.o)
+                0x0000000008024bb0                __ssvfscanf_r
+ *fill*         0x0000000008025a0c        0x4 
  .text._vsnprintf_r
-                0x00000000080259e0       0x74 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-vsnprintf.o)
-                0x00000000080259e0                _vsnprintf_r
- *fill*         0x0000000008025a54        0xc 
+                0x0000000008025a10       0x74 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-vsnprintf.o)
+                0x0000000008025a10                _vsnprintf_r
+ *fill*         0x0000000008025a84        0xc 
  .text.vsnprintf
-                0x0000000008025a60       0x20 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-vsnprintf.o)
-                0x0000000008025a60                vsnprintf
+                0x0000000008025a90       0x20 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-vsnprintf.o)
+                0x0000000008025a90                vsnprintf
  .text.iswspace
-                0x0000000008025a80       0x1c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-iswspace.o)
-                0x0000000008025a80                iswspace
- *fill*         0x0000000008025a9c        0x4 
+                0x0000000008025ab0       0x1c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-iswspace.o)
+                0x0000000008025ab0                iswspace
+ *fill*         0x0000000008025acc        0x4 
  .text.__locale_charset
-                0x0000000008025aa0        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
-                0x0000000008025aa0                __locale_charset
- *fill*         0x0000000008025aa8        0x8 
+                0x0000000008025ad0        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
+                0x0000000008025ad0                __locale_charset
+ *fill*         0x0000000008025ad8        0x8 
  .text.__locale_mb_cur_max
-                0x0000000008025ab0        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
-                0x0000000008025ab0                __locale_mb_cur_max
- *fill*         0x0000000008025abc        0x4 
+                0x0000000008025ae0        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
+                0x0000000008025ae0                __locale_mb_cur_max
+ *fill*         0x0000000008025aec        0x4 
  .text._localeconv_r
-                0x0000000008025ac0        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
-                0x0000000008025ac0                _localeconv_r
- *fill*         0x0000000008025ac8        0x8 
+                0x0000000008025af0        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
+                0x0000000008025af0                _localeconv_r
+ *fill*         0x0000000008025af8        0x8 
  .text._mbrtowc_r
-                0x0000000008025ad0       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mbrtowc.o)
-                0x0000000008025ad0                _mbrtowc_r
- *fill*         0x0000000008025b2c        0x4 
- .text.__ascii_mbtowc
-                0x0000000008025b30       0x2c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mbtowc_r.o)
-                0x0000000008025b30                __ascii_mbtowc
+                0x0000000008025b00       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mbrtowc.o)
+                0x0000000008025b00                _mbrtowc_r
  *fill*         0x0000000008025b5c        0x4 
- .text.__sccl   0x0000000008025b60       0x78 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-sccl.o)
-                0x0000000008025b60                __sccl
- *fill*         0x0000000008025bd8        0x8 
- .text.sprintf  0x0000000008025be0       0x4c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-sprintf.o)
-                0x0000000008025be0                sprintf
- *fill*         0x0000000008025c2c        0x4 
- .text.sulp     0x0000000008025c30       0x40 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+ .text.__ascii_mbtowc
+                0x0000000008025b60       0x2c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mbtowc_r.o)
+                0x0000000008025b60                __ascii_mbtowc
+ *fill*         0x0000000008025b8c        0x4 
+ .text.__sccl   0x0000000008025b90       0x78 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-sccl.o)
+                0x0000000008025b90                __sccl
+ *fill*         0x0000000008025c08        0x8 
+ .text.sprintf  0x0000000008025c10       0x4c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-sprintf.o)
+                0x0000000008025c10                sprintf
+ *fill*         0x0000000008025c5c        0x4 
+ .text.sulp     0x0000000008025c60       0x40 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
  .text._strtod_r
-                0x0000000008025c70      0xf4c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
-                0x0000000008025c70                _strtod_r
- *fill*         0x0000000008026bbc        0x4 
+                0x0000000008025ca0      0xf4c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+                0x0000000008025ca0                _strtod_r
+ *fill*         0x0000000008026bec        0x4 
  .text._strtol_r
-                0x0000000008026bc0      0x11c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtol.o)
-                0x0000000008026bc0                _strtol_r
- *fill*         0x0000000008026cdc        0x4 
+                0x0000000008026bf0      0x11c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtol.o)
+                0x0000000008026bf0                _strtol_r
+ *fill*         0x0000000008026d0c        0x4 
  .text._strtoll_r
-                0x0000000008026ce0      0x1cc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtoll_r.o)
-                0x0000000008026ce0                _strtoll_r
- *fill*         0x0000000008026eac        0x4 
+                0x0000000008026d10      0x1cc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtoll_r.o)
+                0x0000000008026d10                _strtoll_r
+ *fill*         0x0000000008026edc        0x4 
  .text._strtoul_r
-                0x0000000008026eb0      0x128 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtoul.o)
-                0x0000000008026eb0                _strtoul_r
- *fill*         0x0000000008026fd8        0x8 
+                0x0000000008026ee0      0x128 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtoul.o)
+                0x0000000008026ee0                _strtoul_r
+ *fill*         0x0000000008027008        0x8 
  .text._strtoull_r
-                0x0000000008026fe0      0x1d8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtoull_r.o)
-                0x0000000008026fe0                _strtoull_r
- *fill*         0x00000000080271b8        0x8 
+                0x0000000008027010      0x1d8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtoull_r.o)
+                0x0000000008027010                _strtoull_r
+ *fill*         0x00000000080271e8        0x8 
  .text._sungetc_r
-                0x00000000080271c0       0x88 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfiscanf.o)
-                0x00000000080271c0                _sungetc_r
- *fill*         0x0000000008027248        0x8 
+                0x00000000080271f0       0x88 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfiscanf.o)
+                0x00000000080271f0                _sungetc_r
+ *fill*         0x0000000008027278        0x8 
  .text.__ssrefill_r
-                0x0000000008027250       0x3c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfiscanf.o)
-                0x0000000008027250                __ssrefill_r
- *fill*         0x000000000802728c        0x4 
+                0x0000000008027280       0x3c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfiscanf.o)
+                0x0000000008027280                __ssrefill_r
+ *fill*         0x00000000080272bc        0x4 
  .text._sfread_r
-                0x0000000008027290       0x80 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfiscanf.o)
-                0x0000000008027290                _sfread_r
+                0x00000000080272c0       0x80 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfiscanf.o)
+                0x00000000080272c0                _sfread_r
  .text._svfprintf_r
-                0x0000000008027310     0x14cc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfprintf.o)
-                0x0000000008027310                _svfprintf_r
- *fill*         0x00000000080287dc        0x4 
+                0x0000000008027340     0x14cc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfprintf.o)
+                0x0000000008027340                _svfprintf_r
+ *fill*         0x000000000802880c        0x4 
  .text.__submore
-                0x00000000080287e0       0x78 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-ungetc.o)
-                0x00000000080287e0                __submore
- *fill*         0x0000000008028858        0x8 
- .text.quorem   0x0000000008028860      0x12c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-dtoa.o)
- *fill*         0x000000000802898c        0x4 
- .text._dtoa_r  0x0000000008028990      0xea4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-dtoa.o)
-                0x0000000008028990                _dtoa_r
- *fill*         0x0000000008029834        0xc 
+                0x0000000008028810       0x78 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-ungetc.o)
+                0x0000000008028810                __submore
+ *fill*         0x0000000008028888        0x8 
+ .text.quorem   0x0000000008028890      0x12c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-dtoa.o)
+ *fill*         0x00000000080289bc        0x4 
+ .text._dtoa_r  0x00000000080289c0      0xea4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-dtoa.o)
+                0x00000000080289c0                _dtoa_r
+ *fill*         0x0000000008029864        0xc 
  .text._malloc_trim_r
-                0x0000000008029840       0x9c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
-                0x0000000008029840                _malloc_trim_r
- *fill*         0x00000000080298dc        0x4 
- .text._free_r  0x00000000080298e0      0x1b0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
-                0x00000000080298e0                _free_r
- .text.rshift   0x0000000008029a90       0xa0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
+                0x0000000008029870       0x9c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
+                0x0000000008029870                _malloc_trim_r
+ *fill*         0x000000000802990c        0x4 
+ .text._free_r  0x0000000008029910      0x1b0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
+                0x0000000008029910                _free_r
+ .text.rshift   0x0000000008029ac0       0xa0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
  .text.__gethex
-                0x0000000008029b30      0x514 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
-                0x0000000008029b30                __gethex
- *fill*         0x000000000802a044        0xc 
+                0x0000000008029b60      0x514 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
+                0x0000000008029b60                __gethex
+ *fill*         0x000000000802a074        0xc 
  .text.__hexnan
-                0x000000000802a050      0x184 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-hexnan.o)
-                0x000000000802a050                __hexnan
- *fill*         0x000000000802a1d4        0xc 
+                0x000000000802a080      0x184 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-hexnan.o)
+                0x000000000802a080                __hexnan
+ *fill*         0x000000000802a204        0xc 
  .text._malloc_r
-                0x000000000802a1e0      0x524 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mallocr.o)
-                0x000000000802a1e0                _malloc_r
- *fill*         0x000000000802a704        0xc 
- .text.memchr   0x000000000802a710       0x94 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memchr.o)
-                0x000000000802a710                memchr
- *fill*         0x000000000802a7a4        0xc 
+                0x000000000802a210      0x524 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mallocr.o)
+                0x000000000802a210                _malloc_r
+ *fill*         0x000000000802a734        0xc 
+ .text.memchr   0x000000000802a740       0x94 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memchr.o)
+                0x000000000802a740                memchr
+ *fill*         0x000000000802a7d4        0xc 
  .text.__malloc_lock
-                0x000000000802a7b0        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
-                0x000000000802a7b0                __malloc_lock
- *fill*         0x000000000802a7b4        0xc 
+                0x000000000802a7e0        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
+                0x000000000802a7e0                __malloc_lock
+ *fill*         0x000000000802a7e4        0xc 
  .text.__malloc_unlock
-                0x000000000802a7c0        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
-                0x000000000802a7c0                __malloc_unlock
- *fill*         0x000000000802a7c4        0xc 
- .text._Balloc  0x000000000802a7d0       0x4c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802a7d0                _Balloc
- *fill*         0x000000000802a81c        0x4 
- .text._Bfree   0x000000000802a820       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802a820                _Bfree
- *fill*         0x000000000802a834        0xc 
+                0x000000000802a7f0        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
+                0x000000000802a7f0                __malloc_unlock
+ *fill*         0x000000000802a7f4        0xc 
+ .text._Balloc  0x000000000802a800       0x4c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802a800                _Balloc
+ *fill*         0x000000000802a84c        0x4 
+ .text._Bfree   0x000000000802a850       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802a850                _Bfree
+ *fill*         0x000000000802a864        0xc 
  .text.__multadd
-                0x000000000802a840       0x84 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802a840                __multadd
- *fill*         0x000000000802a8c4        0xc 
- .text.__s2b    0x000000000802a8d0       0x98 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802a8d0                __s2b
- *fill*         0x000000000802a968        0x8 
+                0x000000000802a870       0x84 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802a870                __multadd
+ *fill*         0x000000000802a8f4        0xc 
+ .text.__s2b    0x000000000802a900       0x98 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802a900                __s2b
+ *fill*         0x000000000802a998        0x8 
  .text.__hi0bits
-                0x000000000802a970       0x40 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802a970                __hi0bits
+                0x000000000802a9a0       0x40 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802a9a0                __hi0bits
  .text.__lo0bits
-                0x000000000802a9b0       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802a9b0                __lo0bits
- *fill*         0x000000000802aa0c        0x4 
- .text.__i2b    0x000000000802aa10       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802aa10                __i2b
- *fill*         0x000000000802aa24        0xc 
+                0x000000000802a9e0       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802a9e0                __lo0bits
+ *fill*         0x000000000802aa3c        0x4 
+ .text.__i2b    0x000000000802aa40       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802aa40                __i2b
+ *fill*         0x000000000802aa54        0xc 
  .text.__multiply
-                0x000000000802aa30      0x134 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802aa30                __multiply
- *fill*         0x000000000802ab64        0xc 
+                0x000000000802aa60      0x134 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802aa60                __multiply
+ *fill*         0x000000000802ab94        0xc 
  .text.__pow5mult
-                0x000000000802ab70       0xa0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802ab70                __pow5mult
+                0x000000000802aba0       0xa0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802aba0                __pow5mult
  .text.__lshift
-                0x000000000802ac10       0xac /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802ac10                __lshift
- *fill*         0x000000000802acbc        0x4 
- .text.__mcmp   0x000000000802acc0       0x48 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802acc0                __mcmp
- *fill*         0x000000000802ad08        0x8 
- .text.__mdiff  0x000000000802ad10       0xd4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802ad10                __mdiff
- *fill*         0x000000000802ade4        0xc 
- .text.__ulp    0x000000000802adf0       0x50 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802adf0                __ulp
- .text.__b2d    0x000000000802ae40       0xc4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802ae40                __b2d
- *fill*         0x000000000802af04        0xc 
- .text.__d2b    0x000000000802af10       0xbc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802af10                __d2b
- *fill*         0x000000000802afcc        0x4 
- .text.__ratio  0x000000000802afd0       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802afd0                __ratio
+                0x000000000802ac40       0xac /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802ac40                __lshift
+ *fill*         0x000000000802acec        0x4 
+ .text.__mcmp   0x000000000802acf0       0x48 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802acf0                __mcmp
+ *fill*         0x000000000802ad38        0x8 
+ .text.__mdiff  0x000000000802ad40       0xd4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802ad40                __mdiff
+ *fill*         0x000000000802ae14        0xc 
+ .text.__ulp    0x000000000802ae20       0x50 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802ae20                __ulp
+ .text.__b2d    0x000000000802ae70       0xc4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802ae70                __b2d
+ *fill*         0x000000000802af34        0xc 
+ .text.__d2b    0x000000000802af40       0xbc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802af40                __d2b
+ *fill*         0x000000000802affc        0x4 
+ .text.__ratio  0x000000000802b000       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802b000                __ratio
  .text.__copybits
-                0x000000000802b030       0x48 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802b030                __copybits
- *fill*         0x000000000802b078        0x8 
+                0x000000000802b060       0x48 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802b060                __copybits
+ *fill*         0x000000000802b0a8        0x8 
  .text.__any_on
-                0x000000000802b080       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802b080                __any_on
+                0x000000000802b0b0       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802b0b0                __any_on
  .text._realloc_r
-                0x000000000802b0e0      0x3ec /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-reallocr.o)
-                0x000000000802b0e0                _realloc_r
- *fill*         0x000000000802b4cc        0x4 
- .text.strncmp  0x000000000802b4d0       0x98 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncmp.o)
-                0x000000000802b4d0                strncmp
- *fill*         0x000000000802b568        0x8 
+                0x000000000802b110      0x3ec /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-reallocr.o)
+                0x000000000802b110                _realloc_r
+ *fill*         0x000000000802b4fc        0x4 
+ .text.strncmp  0x000000000802b500       0x98 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncmp.o)
+                0x000000000802b500                strncmp
+ *fill*         0x000000000802b598        0x8 
  .text.__ssprint_r
-                0x000000000802b570      0x104 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfiprintf.o)
-                0x000000000802b570                __ssprint_r
- *fill*         0x000000000802b674        0xc 
+                0x000000000802b5a0      0x104 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfiprintf.o)
+                0x000000000802b5a0                __ssprint_r
+ *fill*         0x000000000802b6a4        0xc 
  .text._calloc_r
-                0x000000000802b680       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-callocr.o)
-                0x000000000802b680                _calloc_r
- .text.memmove  0x000000000802b6e0       0xc8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memmove.o)
-                0x000000000802b6e0                memmove
+                0x000000000802b6b0       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-callocr.o)
+                0x000000000802b6b0                _calloc_r
+ .text.memmove  0x000000000802b710       0xc8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memmove.o)
+                0x000000000802b710                memmove
  *(.rodata)
- *fill*         0x000000000802b7a8        0x8 
- .rodata        0x000000000802b7b0       0x1c build/obj/mcpwm.o
+ *fill*         0x000000000802b7d8        0x8 
+ .rodata        0x000000000802b7e0       0x1c build/obj/mcpwm.o
  *(.rodata.*)
- *fill*         0x000000000802b7cc        0x4 
+ *fill*         0x000000000802b7fc        0x4 
  .rodata.str1.4
-                0x000000000802b7d0        0x5 build/obj/chsys.o
- *fill*         0x000000000802b7d5        0xb 
+                0x000000000802b800        0x5 build/obj/chsys.o
+ *fill*         0x000000000802b805        0xb 
  .rodata.ch_debug
-                0x000000000802b7e0       0x16 build/obj/chregistry.o
-                0x000000000802b7e0                ch_debug
- *fill*         0x000000000802b7f6        0xa 
- .rodata.vmt    0x000000000802b800       0x20 build/obj/serial_usb.o
+                0x000000000802b810       0x16 build/obj/chregistry.o
+                0x000000000802b810                ch_debug
+ *fill*         0x000000000802b826        0xa 
+ .rodata.vmt    0x000000000802b830       0x20 build/obj/serial_usb.o
  .rodata.zero_status
-                0x000000000802b820        0x2 build/obj/usb.o
- *fill*         0x000000000802b822        0xe 
+                0x000000000802b850        0x2 build/obj/usb.o
+ *fill*         0x000000000802b852        0xe 
  .rodata.active_status
-                0x000000000802b830        0x2 build/obj/usb.o
- *fill*         0x000000000802b832        0xe 
+                0x000000000802b860        0x2 build/obj/usb.o
+ *fill*         0x000000000802b862        0xe 
  .rodata.halted_status
-                0x000000000802b840        0x2 build/obj/usb.o
- *fill*         0x000000000802b842        0xe 
+                0x000000000802b870        0x2 build/obj/usb.o
+ *fill*         0x000000000802b872        0xe 
  .rodata._stm32_dma_streams
-                0x000000000802b850       0xc0 build/obj/stm32_dma.o
-                0x000000000802b850                _stm32_dma_streams
+                0x000000000802b880       0xc0 build/obj/stm32_dma.o
+                0x000000000802b880                _stm32_dma_streams
  .rodata.str1.4
-                0x000000000802b910        0xc build/obj/i2c_lld.o
- *fill*         0x000000000802b91c        0x4 
+                0x000000000802b940        0xc build/obj/i2c_lld.o
+ *fill*         0x000000000802b94c        0x4 
  .rodata.fsparams
-                0x000000000802b920        0xc build/obj/usb_lld.o
- *fill*         0x000000000802b92c        0x4 
+                0x000000000802b950        0xc build/obj/usb_lld.o
+ *fill*         0x000000000802b95c        0x4 
  .rodata.str1.4
-                0x000000000802b930        0xd build/obj/usb_lld.o
- *fill*         0x000000000802b93d        0x3 
+                0x000000000802b960        0xd build/obj/usb_lld.o
+ *fill*         0x000000000802b96d        0x3 
  .rodata.ep0config
-                0x000000000802b940       0x24 build/obj/usb_lld.o
+                0x000000000802b970       0x24 build/obj/usb_lld.o
  .rodata.str1.4
                 0x0000000000000000        0xc build/obj/uart_lld.o
- *fill*         0x000000000802b964        0xc 
+ *fill*         0x000000000802b994        0xc 
  .rodata.pal_default_config
-                0x000000000802b970       0xfc build/obj/board.o
-                0x000000000802b970                pal_default_config
- *fill*         0x000000000802ba6c        0x4 
+                0x000000000802b9a0       0xfc build/obj/board.o
+                0x000000000802b9a0                pal_default_config
+ *fill*         0x000000000802ba9c        0x4 
  .rodata.str1.4
-                0x000000000802ba70       0x1a build/obj/main.o
- *fill*         0x000000000802ba8a        0x6 
+                0x000000000802baa0       0x1a build/obj/main.o
+ *fill*         0x000000000802baba        0x6 
  .rodata.ep1config
-                0x000000000802ba90       0x24 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bab4        0xc 
+                0x000000000802bac0       0x24 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802bae4        0xc 
  .rodata.vcom_configuration_descriptor
-                0x000000000802bac0        0x8 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bac8        0x8 
+                0x000000000802baf0        0x8 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802baf8        0x8 
  .rodata.ep2config
-                0x000000000802bad0       0x24 build/obj/comm_usb_serial.o
- *fill*         0x000000000802baf4        0xc 
+                0x000000000802bb00       0x24 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802bb24        0xc 
  .rodata.usbcfg
-                0x000000000802bb00       0x10 build/obj/comm_usb_serial.o
+                0x000000000802bb30       0x10 build/obj/comm_usb_serial.o
  .rodata.vcom_configuration_descriptor_data
-                0x000000000802bb10       0x43 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bb53        0xd 
+                0x000000000802bb40       0x43 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802bb83        0xd 
  .rodata.vcom_device_descriptor_data
-                0x000000000802bb60       0x12 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bb72        0xe 
+                0x000000000802bb90       0x12 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802bba2        0xe 
  .rodata.vcom_string0
-                0x000000000802bb80        0x4 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bb84        0xc 
+                0x000000000802bbb0        0x4 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802bbb4        0xc 
  .rodata.vcom_string1
-                0x000000000802bb90       0x26 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bbb6        0xa 
+                0x000000000802bbc0       0x26 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802bbe6        0xa 
  .rodata.vcom_string2
-                0x000000000802bbc0       0x38 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bbf8        0x8 
+                0x000000000802bbf0       0x38 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802bc28        0x8 
  .rodata.vcom_string3
-                0x000000000802bc00        0x8 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bc08        0x8 
- .rodata.vcom_strings
-                0x000000000802bc10       0x20 build/obj/comm_usb_serial.o
- .rodata.serusbcfg
                 0x000000000802bc30        0x8 build/obj/comm_usb_serial.o
-                0x000000000802bc30                serusbcfg
  *fill*         0x000000000802bc38        0x8 
+ .rodata.vcom_strings
+                0x000000000802bc40       0x20 build/obj/comm_usb_serial.o
+ .rodata.serusbcfg
+                0x000000000802bc60        0x8 build/obj/comm_usb_serial.o
+                0x000000000802bc60                serusbcfg
+ *fill*         0x000000000802bc68        0x8 
  .rodata.vcom_device_descriptor
-                0x000000000802bc40        0x8 build/obj/comm_usb_serial.o
- *fill*         0x000000000802bc48        0x8 
+                0x000000000802bc70        0x8 build/obj/comm_usb_serial.o
+ *fill*         0x000000000802bc78        0x8 
  .rodata.str1.4
-                0x000000000802bc50       0x24 build/obj/comm_usb.o
- *fill*         0x000000000802bc74        0xc 
+                0x000000000802bc80       0x24 build/obj/comm_usb.o
+ *fill*         0x000000000802bca4        0xc 
  .rodata.crc16_tab
-                0x000000000802bc80      0x200 build/obj/crc.o
-                0x000000000802bc80                crc16_tab
+                0x000000000802bcb0      0x200 build/obj/crc.o
+                0x000000000802bcb0                crc16_tab
  .rodata.str1.4
-                0x000000000802be80       0x16 build/obj/mcpwm.o
- *fill*         0x000000000802be96        0xa 
+                0x000000000802beb0       0x16 build/obj/mcpwm.o
+ *fill*         0x000000000802bec6        0xa 
  .rodata.states.11002
-                0x000000000802bea0       0x40 build/obj/terminal.o
+                0x000000000802bed0       0x40 build/obj/terminal.o
  .rodata.str1.4
-                0x000000000802bee0      0xf12 build/obj/terminal.o
+                0x000000000802bf10      0xf12 build/obj/terminal.o
                                         0xf2a (size before relaxing)
- *fill*         0x000000000802cdf2        0xe 
+ *fill*         0x000000000802ce22        0xe 
  .rodata.str1.4
-                0x000000000802ce00        0x7 build/obj/commands.o
- *fill*         0x000000000802ce07        0x9 
+                0x000000000802ce30        0x7 build/obj/commands.o
+ *fill*         0x000000000802ce37        0x9 
  .rodata.str1.4
-                0x000000000802ce10        0x8 build/obj/timeout.o
- *fill*         0x000000000802ce18        0x8 
+                0x000000000802ce40        0x8 build/obj/timeout.o
+ *fill*         0x000000000802ce48        0x8 
  .rodata.cancfg
-                0x000000000802ce20        0x8 build/obj/comm_can.o
- *fill*         0x000000000802ce28        0x8 
+                0x000000000802ce50        0x8 build/obj/comm_can.o
+ *fill*         0x000000000802ce58        0x8 
  .rodata.str1.4
-                0x000000000802ce30       0x1f build/obj/comm_can.o
- *fill*         0x000000000802ce4f        0x1 
+                0x000000000802ce60       0x1f build/obj/comm_can.o
+ *fill*         0x000000000802ce7f        0x1 
  .rodata.flash_sector
-                0x000000000802ce50       0x18 build/obj/flash_helper.o
- *fill*         0x000000000802ce68        0x8 
+                0x000000000802ce80       0x18 build/obj/flash_helper.o
+ *fill*         0x000000000802ce98        0x8 
  .rodata.flash_addr
-                0x000000000802ce70       0x30 build/obj/flash_helper.o
+                0x000000000802cea0       0x30 build/obj/flash_helper.o
  .rodata.str1.4
-                0x000000000802cea0       0xd7 build/obj/mc_interface.o
- *fill*         0x000000000802cf77        0x9 
+                0x000000000802ced0       0xd7 build/obj/mc_interface.o
+ *fill*         0x000000000802cfa7        0x9 
  .rodata.CSWTCH.124
-                0x000000000802cf80       0x1c build/obj/mc_interface.o
- *fill*         0x000000000802cf9c        0x4 
+                0x000000000802cfb0       0x1c build/obj/mc_interface.o
+ *fill*         0x000000000802cfcc        0x4 
  .rodata.str1.4
-                0x000000000802cfa0      0x1df build/obj/mcpwm_foc.o
+                0x000000000802cfd0      0x1df build/obj/mcpwm_foc.o
                                         0x1e7 (size before relaxing)
- *fill*         0x000000000802d17f        0x1 
- .rodata.i2cfg  0x000000000802d180        0xc build/obj/hw_410.o
- *fill*         0x000000000802d18c        0x4 
+ *fill*         0x000000000802d1af        0x1 
+ .rodata.i2cfg  0x000000000802d1b0        0xc build/obj/hw_410.o
+ *fill*         0x000000000802d1bc        0x4 
  .rodata.str1.4
-                0x000000000802d190        0x8 build/obj/app_ppm.o
- *fill*         0x000000000802d198        0x8 
+                0x000000000802d1c0        0x8 build/obj/app_ppm.o
+ *fill*         0x000000000802d1c8        0x8 
  .rodata.str1.4
-                0x000000000802d1a0        0x8 build/obj/app_adc.o
- *fill*         0x000000000802d1a8        0x8 
+                0x000000000802d1d0        0x8 build/obj/app_adc.o
+ *fill*         0x000000000802d1d8        0x8 
  .rodata.str1.4
-                0x000000000802d1b0       0x11 build/obj/app_uartcomm.o
- *fill*         0x000000000802d1c1        0xf 
+                0x000000000802d1e0       0x11 build/obj/app_uartcomm.o
+ *fill*         0x000000000802d1f1        0xf 
  .rodata.str1.4
-                0x000000000802d1d0       0x1c build/obj/app_nunchuk.o
- *fill*         0x000000000802d1ec        0x4 
+                0x000000000802d200       0x1c build/obj/app_nunchuk.o
+ *fill*         0x000000000802d21c        0x4 
  .rodata.str1.4
-                0x000000000802d1f0        0xf build/obj/nrf_driver.o
- *fill*         0x000000000802d1ff        0x1 
+                0x000000000802d220        0xf build/obj/nrf_driver.o
+ *fill*         0x000000000802d22f        0x1 
  .rodata.str1.4
-                0x000000000802d200        0x5 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-w_sqrt.o)
- *fill*         0x000000000802d205        0xb 
- .rodata.str1.4
-                0x000000000802d210        0x6 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_asin.o)
-                                          0x9 (size before relaxing)
- *fill*         0x000000000802d216        0xa 
- .rodata.str1.4
-                0x000000000802d220        0x6 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_fmod.o)
- *fill*         0x000000000802d226        0xa 
- .rodata.str1.4
-                0x000000000802d230        0x5 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_log.o)
-                                          0x9 (size before relaxing)
+                0x000000000802d230        0x5 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-w_sqrt.o)
  *fill*         0x000000000802d235        0xb 
  .rodata.str1.4
-                0x000000000802d240        0x5 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_pow.o)
- *fill*         0x000000000802d245        0xb 
+                0x000000000802d240        0x6 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_asin.o)
+                                          0x9 (size before relaxing)
+ *fill*         0x000000000802d246        0xa 
  .rodata.str1.4
-                0x000000000802d250        0x6 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_sqrt.o)
+                0x000000000802d250        0x6 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_fmod.o)
  *fill*         0x000000000802d256        0xa 
- .rodata.Zero   0x000000000802d260        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_fmod.o)
- *fill*         0x000000000802d268        0x8 
- .rodata.dp_h   0x000000000802d270        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
- *fill*         0x000000000802d278        0x8 
- .rodata.dp_l   0x000000000802d280        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
- *fill*         0x000000000802d288        0x8 
- .rodata.bp     0x000000000802d290        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
+ .rodata.str1.4
+                0x000000000802d260        0x5 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_log.o)
+                                          0x9 (size before relaxing)
+ *fill*         0x000000000802d265        0xb 
+ .rodata.str1.4
+                0x000000000802d270        0x5 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_pow.o)
+ *fill*         0x000000000802d275        0xb 
+ .rodata.str1.4
+                0x000000000802d280        0x6 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_sqrt.o)
+ *fill*         0x000000000802d286        0xa 
+ .rodata.Zero   0x000000000802d290        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_fmod.o)
+ *fill*         0x000000000802d298        0x8 
+ .rodata.dp_h   0x000000000802d2a0        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
+ *fill*         0x000000000802d2a8        0x8 
+ .rodata.dp_l   0x000000000802d2b0        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
+ *fill*         0x000000000802d2b8        0x8 
+ .rodata.bp     0x000000000802d2c0        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
  .rodata.str1.4
                 0x0000000000000000        0x1 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
- *fill*         0x000000000802d298        0x8 
+ *fill*         0x000000000802d2c8        0x8 
  .rodata.npio2_hw
-                0x000000000802d2a0       0x80 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+                0x000000000802d2d0       0x80 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
  .rodata.two_over_pi
-                0x000000000802d320      0x318 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
- *fill*         0x000000000802d638        0x8 
+                0x000000000802d350      0x318 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ *fill*         0x000000000802d668        0x8 
  .rodata.init_jk
-                0x000000000802d640        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
- *fill*         0x000000000802d64c        0x4 
- .rodata.PIo2   0x000000000802d650       0x2c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+                0x000000000802d670        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
  *fill*         0x000000000802d67c        0x4 
- .rodata.TWO52  0x000000000802d680       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_rint.o)
+ .rodata.PIo2   0x000000000802d680       0x2c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+ *fill*         0x000000000802d6ac        0x4 
+ .rodata.TWO52  0x000000000802d6b0       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-s_rint.o)
  .rodata.atanlo
-                0x000000000802d690       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_atan.o)
+                0x000000000802d6c0       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_atan.o)
  .rodata.atanhi
-                0x000000000802d6a0       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_atan.o)
+                0x000000000802d6d0       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_atan.o)
  .rodata.str1.4
-                0x000000000802d6b0        0x2 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-impure.o)
- *fill*         0x000000000802d6b2        0xe 
+                0x000000000802d6e0        0x2 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-impure.o)
+ *fill*         0x000000000802d6e2        0xe 
  .rodata.str1.4
-                0x000000000802d6c0        0x5 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfscanf.o)
- *fill*         0x000000000802d6c5        0xb 
+                0x000000000802d6f0        0x5 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfscanf.o)
+ *fill*         0x000000000802d6f5        0xb 
  .rodata.basefix.6862
-                0x000000000802d6d0       0x22 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfscanf.o)
- *fill*         0x000000000802d6f2        0xe 
+                0x000000000802d700       0x22 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfscanf.o)
+ *fill*         0x000000000802d722        0xe 
  .rodata._ctype_
-                0x000000000802d700      0x101 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-ctype_.o)
-                0x000000000802d700                _ctype_
- *fill*         0x000000000802d801        0xf 
+                0x000000000802d730      0x101 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-ctype_.o)
+                0x000000000802d730                _ctype_
+ *fill*         0x000000000802d831        0xf 
  .rodata.str1.4
-                0x000000000802d810        0x6 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
+                0x000000000802d840        0x6 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
                                          0x12 (size before relaxing)
  .rodata.str1.4
                 0x0000000000000000        0x1 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mbrtowc.o)
- *fill*         0x000000000802d816        0xa 
+ *fill*         0x000000000802d846        0xa 
  .rodata.tinytens
-                0x000000000802d820       0x28 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
- *fill*         0x000000000802d848        0x8 
+                0x000000000802d850       0x28 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+ *fill*         0x000000000802d878        0x8 
  .rodata.fpinan.5307
-                0x000000000802d850       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
- *fill*         0x000000000802d864        0xc 
- .rodata.str1.4
-                0x000000000802d870        0xf /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
- *fill*         0x000000000802d87f        0x1 
- .rodata.fpi.5271
                 0x000000000802d880       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
  *fill*         0x000000000802d894        0xc 
+ .rodata.str1.4
+                0x000000000802d8a0        0xf /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+ *fill*         0x000000000802d8af        0x1 
+ .rodata.fpi.5271
+                0x000000000802d8b0       0x14 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+ *fill*         0x000000000802d8c4        0xc 
  .rodata.zeroes.6911
-                0x000000000802d8a0       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfprintf.o)
+                0x000000000802d8d0       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfprintf.o)
  .rodata.blanks.6910
-                0x000000000802d8b0       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfprintf.o)
+                0x000000000802d8e0       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfprintf.o)
  .rodata.str1.4
-                0x000000000802d8c0       0x42 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfprintf.o)
- *fill*         0x000000000802d902        0xe 
+                0x000000000802d8f0       0x42 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-svfprintf.o)
+ *fill*         0x000000000802d932        0xe 
  .rodata.str1.4
-                0x000000000802d910       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-dtoa.o)
+                0x000000000802d940       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-dtoa.o)
                                          0x12 (size before relaxing)
  .rodata.__hexdig
-                0x000000000802d920      0x100 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
-                0x000000000802d920                __hexdig
+                0x000000000802d950      0x100 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
+                0x000000000802d950                __hexdig
  .rodata.__mprec_tens
-                0x000000000802da20       0xc8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802da20                __mprec_tens
- *fill*         0x000000000802dae8        0x8 
+                0x000000000802da50       0xc8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802da50                __mprec_tens
+ *fill*         0x000000000802db18        0x8 
  .rodata.p05.5302
-                0x000000000802daf0        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
- *fill*         0x000000000802dafc        0x4 
+                0x000000000802db20        0xc /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+ *fill*         0x000000000802db2c        0x4 
  .rodata.__mprec_bigtens
-                0x000000000802db00       0x28 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x000000000802db00                __mprec_bigtens
+                0x000000000802db30       0x28 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x000000000802db30                __mprec_bigtens
  *(.glue_7t)
  .glue_7t       0x0000000000000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x0000000000000000        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x000000000802db28        0x0
+.vfp11_veneer   0x000000000802db58        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x000000000802db28        0x0
+.v4_bx          0x000000000802db58        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x000000000802db28        0x0
+.iplt           0x000000000802db58        0x0
  .iplt          0x0000000000000000        0x0 build/obj/crt0_v7m.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x000000000802db28        0x8
-                0x000000000802db28                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x000000000802db58        0x8
+                0x000000000802db58                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x000000000802db28        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/libgcc.a(_divdi3.o)
- .ARM.exidx     0x000000000802db30        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x000000000802db58        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x000000000802db60        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/libgcc.a(_udivdi3.o)
                                           0x8 (size before relaxing)
-                0x000000000802db30                PROVIDE (__exidx_end, .)
+                0x000000000802db60                PROVIDE (__exidx_end, .)
 
-.rel.dyn        0x000000000802db30        0x0
+.rel.dyn        0x000000000802db60        0x0
  .rel.iplt      0x0000000000000000        0x0 build/obj/crt0_v7m.o
 
 .eh_frame_hdr
@@ -4971,11 +4971,11 @@ destructors     0x000000000800c000        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x000000000802db30        0x0
-                0x000000000802db30                . = ALIGN (0x8)
-                0x000000000802db30                . = ALIGN (0x4)
-                0x000000000802db30                _etext = .
-                0x000000000802db30                _textdata = _etext
+.textalign      0x000000000802db60        0x0
+                0x000000000802db60                . = ALIGN (0x8)
+                0x000000000802db60                . = ALIGN (0x4)
+                0x000000000802db60                _etext = .
+                0x000000000802db60                _textdata = _etext
 
 .mstack         0x0000000020000000      0x400
                 0x0000000020000000                . = ALIGN (0x8)
@@ -4994,7 +4994,7 @@ destructors     0x000000000800c000        0x0
                 0x0000000020000800                __process_stack_end__ = .
                 0x0000000020000800                __main_thread_stack_end__ = .
 
-.data           0x0000000020000800      0x910 load address 0x000000000802db30
+.data           0x0000000020000800      0x910 load address 0x000000000802db60
                 0x0000000020000800                . = ALIGN (0x4)
                 0x0000000020000800                PROVIDE (_data, .)
  *(.data)
@@ -5056,10 +5056,10 @@ destructors     0x000000000800c000        0x0
                 0x0000000020001110                . = ALIGN (0x4)
                 0x0000000020001110                PROVIDE (_edata, .)
 
-.igot.plt       0x0000000020001110        0x0 load address 0x000000000802e440
+.igot.plt       0x0000000020001110        0x0 load address 0x000000000802e470
  .igot.plt      0x0000000000000000        0x0 build/obj/crt0_v7m.o
 
-.bss            0x0000000020001110    0x18174 load address 0x000000000802e440
+.bss            0x0000000020001110    0x18174 load address 0x000000000802e470
                 0x0000000020001110                . = ALIGN (0x4)
                 0x0000000020001110                PROVIDE (_bss_start, .)
  *(.bss)
@@ -5715,7 +5715,7 @@ destructors     0x000000000800c000        0x0
                 0x0000000020019284                PROVIDE (_bss_end, .)
                 0x0000000020019284                PROVIDE (end, .)
 
-.ram0           0x0000000020019284        0x0 load address 0x000000000802e440
+.ram0           0x0000000020019284        0x0 load address 0x000000000802e470
                 0x0000000020019284                . = ALIGN (0x4)
  *(.ram0)
  *(.ram0.*)
@@ -6194,7 +6194,7 @@ OUTPUT(build/BLDC_4_ChibiOS.elf elf32-littlearm)
  .comment       0x0000000000000000       0x71 build/obj/stm32f4xx_tim.o
  .comment       0x0000000000000000       0x71 build/obj/stm32f4xx_wwdg.o
 
-.debug_info     0x0000000000000000    0x60e52
+.debug_info     0x0000000000000000    0x60e74
  .debug_info    0x0000000000000000       0xde build/obj/crt1.o
  .debug_info    0x00000000000000de      0x1e7 build/obj/vectors.o
  .debug_info    0x00000000000002c5     0x17e3 build/obj/chsys.o
@@ -6248,29 +6248,29 @@ OUTPUT(build/BLDC_4_ChibiOS.elf elf32-littlearm)
  .debug_info    0x000000000003a529      0xe99 build/obj/eeprom.o
  .debug_info    0x000000000003b3c2     0x437b build/obj/commands.o
  .debug_info    0x000000000003f73d      0xacf build/obj/timeout.o
- .debug_info    0x000000000004020c     0x2a89 build/obj/comm_can.o
- .debug_info    0x0000000000042c95     0x1243 build/obj/led_external.o
- .debug_info    0x0000000000043ed8      0xf5f build/obj/encoder.o
- .debug_info    0x0000000000044e37     0x1f58 build/obj/flash_helper.o
- .debug_info    0x0000000000046d8f     0x288a build/obj/mc_interface.o
- .debug_info    0x0000000000049619     0x4ce0 build/obj/mcpwm_foc.o
- .debug_info    0x000000000004e2f9     0x1654 build/obj/hw_410.o
- .debug_info    0x000000000004f94d      0xedc build/obj/app.o
- .debug_info    0x0000000000050829     0x1a86 build/obj/app_ppm.o
- .debug_info    0x00000000000522af     0x1a96 build/obj/app_adc.o
- .debug_info    0x0000000000053d45     0x124c build/obj/app_uartcomm.o
- .debug_info    0x0000000000054f91     0x1e5e build/obj/app_nunchuk.o
- .debug_info    0x0000000000056def      0xadd build/obj/spi_sw.o
- .debug_info    0x00000000000578cc     0x1c11 build/obj/rf.o
- .debug_info    0x00000000000594dd     0x1459 build/obj/rfhelp.o
- .debug_info    0x000000000005a936     0x1133 build/obj/nrf_driver.o
- .debug_info    0x000000000005ba69      0xc6c build/obj/stm32f4xx_adc.o
- .debug_info    0x000000000005c6d5      0x73a build/obj/stm32f4xx_dma.o
- .debug_info    0x000000000005ce0f      0x33b build/obj/stm32f4xx_exti.o
- .debug_info    0x000000000005d14a      0xa5f build/obj/stm32f4xx_flash.o
- .debug_info    0x000000000005dba9      0xc05 build/obj/stm32f4xx_rcc.o
- .debug_info    0x000000000005e7ae     0x2406 build/obj/stm32f4xx_tim.o
- .debug_info    0x0000000000060bb4      0x29e build/obj/stm32f4xx_wwdg.o
+ .debug_info    0x000000000004020c     0x2aab build/obj/comm_can.o
+ .debug_info    0x0000000000042cb7     0x1243 build/obj/led_external.o
+ .debug_info    0x0000000000043efa      0xf5f build/obj/encoder.o
+ .debug_info    0x0000000000044e59     0x1f58 build/obj/flash_helper.o
+ .debug_info    0x0000000000046db1     0x288a build/obj/mc_interface.o
+ .debug_info    0x000000000004963b     0x4ce0 build/obj/mcpwm_foc.o
+ .debug_info    0x000000000004e31b     0x1654 build/obj/hw_410.o
+ .debug_info    0x000000000004f96f      0xedc build/obj/app.o
+ .debug_info    0x000000000005084b     0x1a86 build/obj/app_ppm.o
+ .debug_info    0x00000000000522d1     0x1a96 build/obj/app_adc.o
+ .debug_info    0x0000000000053d67     0x124c build/obj/app_uartcomm.o
+ .debug_info    0x0000000000054fb3     0x1e5e build/obj/app_nunchuk.o
+ .debug_info    0x0000000000056e11      0xadd build/obj/spi_sw.o
+ .debug_info    0x00000000000578ee     0x1c11 build/obj/rf.o
+ .debug_info    0x00000000000594ff     0x1459 build/obj/rfhelp.o
+ .debug_info    0x000000000005a958     0x1133 build/obj/nrf_driver.o
+ .debug_info    0x000000000005ba8b      0xc6c build/obj/stm32f4xx_adc.o
+ .debug_info    0x000000000005c6f7      0x73a build/obj/stm32f4xx_dma.o
+ .debug_info    0x000000000005ce31      0x33b build/obj/stm32f4xx_exti.o
+ .debug_info    0x000000000005d16c      0xa5f build/obj/stm32f4xx_flash.o
+ .debug_info    0x000000000005dbcb      0xc05 build/obj/stm32f4xx_rcc.o
+ .debug_info    0x000000000005e7d0     0x2406 build/obj/stm32f4xx_tim.o
+ .debug_info    0x0000000000060bd6      0x29e build/obj/stm32f4xx_wwdg.o
 
 .debug_abbrev   0x0000000000000000     0xe4b0
  .debug_abbrev  0x0000000000000000       0x67 build/obj/crt1.o
@@ -6582,7 +6582,7 @@ OUTPUT(build/BLDC_4_ChibiOS.elf elf32-littlearm)
  .debug_ranges  0x0000000000004c50      0x360 build/obj/stm32f4xx_tim.o
  .debug_ranges  0x0000000000004fb0       0x48 build/obj/stm32f4xx_wwdg.o
 
-.debug_line     0x0000000000000000    0x15630
+.debug_line     0x0000000000000000    0x15632
  .debug_line    0x0000000000000000      0x131 build/obj/crt1.o
  .debug_line    0x0000000000000131      0x106 build/obj/vectors.o
  .debug_line    0x0000000000000237      0x492 build/obj/chsys.o
@@ -6636,31 +6636,31 @@ OUTPUT(build/BLDC_4_ChibiOS.elf elf32-littlearm)
  .debug_line    0x000000000000c60f      0x39d build/obj/eeprom.o
  .debug_line    0x000000000000c9ac      0xa73 build/obj/commands.o
  .debug_line    0x000000000000d41f      0x313 build/obj/timeout.o
- .debug_line    0x000000000000d732      0x666 build/obj/comm_can.o
- .debug_line    0x000000000000dd98      0x471 build/obj/led_external.o
- .debug_line    0x000000000000e209      0x341 build/obj/encoder.o
- .debug_line    0x000000000000e54a      0x47b build/obj/flash_helper.o
- .debug_line    0x000000000000e9c5      0xa74 build/obj/mc_interface.o
- .debug_line    0x000000000000f439     0x117a build/obj/mcpwm_foc.o
- .debug_line    0x00000000000105b3      0x452 build/obj/hw_410.o
- .debug_line    0x0000000000010a05      0x285 build/obj/app.o
- .debug_line    0x0000000000010c8a      0x568 build/obj/app_ppm.o
- .debug_line    0x00000000000111f2      0x632 build/obj/app_adc.o
- .debug_line    0x0000000000011824      0x450 build/obj/app_uartcomm.o
- .debug_line    0x0000000000011c74      0x666 build/obj/app_nunchuk.o
- .debug_line    0x00000000000122da      0x310 build/obj/spi_sw.o
- .debug_line    0x00000000000125ea      0x5fb build/obj/rf.o
- .debug_line    0x0000000000012be5      0x3e2 build/obj/rfhelp.o
- .debug_line    0x0000000000012fc7      0x3d0 build/obj/nrf_driver.o
- .debug_line    0x0000000000013397      0x50d build/obj/stm32f4xx_adc.o
- .debug_line    0x00000000000138a4      0x3be build/obj/stm32f4xx_dma.o
- .debug_line    0x0000000000013c62      0x22c build/obj/stm32f4xx_exti.o
- .debug_line    0x0000000000013e8e      0x50f build/obj/stm32f4xx_flash.o
- .debug_line    0x000000000001439d      0x4ee build/obj/stm32f4xx_rcc.o
- .debug_line    0x000000000001488b      0xba8 build/obj/stm32f4xx_tim.o
- .debug_line    0x0000000000015433      0x1fd build/obj/stm32f4xx_wwdg.o
+ .debug_line    0x000000000000d732      0x668 build/obj/comm_can.o
+ .debug_line    0x000000000000dd9a      0x471 build/obj/led_external.o
+ .debug_line    0x000000000000e20b      0x341 build/obj/encoder.o
+ .debug_line    0x000000000000e54c      0x47b build/obj/flash_helper.o
+ .debug_line    0x000000000000e9c7      0xa74 build/obj/mc_interface.o
+ .debug_line    0x000000000000f43b     0x117a build/obj/mcpwm_foc.o
+ .debug_line    0x00000000000105b5      0x452 build/obj/hw_410.o
+ .debug_line    0x0000000000010a07      0x285 build/obj/app.o
+ .debug_line    0x0000000000010c8c      0x568 build/obj/app_ppm.o
+ .debug_line    0x00000000000111f4      0x632 build/obj/app_adc.o
+ .debug_line    0x0000000000011826      0x450 build/obj/app_uartcomm.o
+ .debug_line    0x0000000000011c76      0x666 build/obj/app_nunchuk.o
+ .debug_line    0x00000000000122dc      0x310 build/obj/spi_sw.o
+ .debug_line    0x00000000000125ec      0x5fb build/obj/rf.o
+ .debug_line    0x0000000000012be7      0x3e2 build/obj/rfhelp.o
+ .debug_line    0x0000000000012fc9      0x3d0 build/obj/nrf_driver.o
+ .debug_line    0x0000000000013399      0x50d build/obj/stm32f4xx_adc.o
+ .debug_line    0x00000000000138a6      0x3be build/obj/stm32f4xx_dma.o
+ .debug_line    0x0000000000013c64      0x22c build/obj/stm32f4xx_exti.o
+ .debug_line    0x0000000000013e90      0x50f build/obj/stm32f4xx_flash.o
+ .debug_line    0x000000000001439f      0x4ee build/obj/stm32f4xx_rcc.o
+ .debug_line    0x000000000001488d      0xba8 build/obj/stm32f4xx_tim.o
+ .debug_line    0x0000000000015435      0x1fd build/obj/stm32f4xx_wwdg.o
 
-.debug_str      0x0000000000000000     0xb95a
+.debug_str      0x0000000000000000     0xb958
  .debug_str     0x0000000000000000      0x233 build/obj/crt1.o
                                         0x26f (size before relaxing)
  .debug_str     0x0000000000000233      0x16a build/obj/vectors.o
@@ -6757,61 +6757,61 @@ OUTPUT(build/BLDC_4_ChibiOS.elf elf32-littlearm)
                                         0x855 (size before relaxing)
  .debug_str     0x00000000000071b4       0x9e build/obj/packet.o
                                         0x309 (size before relaxing)
- .debug_str     0x0000000000007252      0x379 build/obj/terminal.o
-                                       0x13ad (size before relaxing)
- .debug_str     0x00000000000075cb      0x2ac build/obj/conf_general.o
+ .debug_str     0x0000000000007252      0x3b4 build/obj/terminal.o
+                                       0x13b7 (size before relaxing)
+ .debug_str     0x0000000000007606      0x2ac build/obj/conf_general.o
                                        0x18ee (size before relaxing)
- .debug_str     0x0000000000007877      0x178 build/obj/eeprom.o
+ .debug_str     0x00000000000078b2      0x178 build/obj/eeprom.o
                                         0x82f (size before relaxing)
- .debug_str     0x00000000000079ef      0x77e build/obj/commands.o
+ .debug_str     0x0000000000007a2a      0x77e build/obj/commands.o
                                        0x21a3 (size before relaxing)
- .debug_str     0x000000000000816d       0x3f build/obj/timeout.o
+ .debug_str     0x00000000000081a8       0x3f build/obj/timeout.o
                                         0x791 (size before relaxing)
- .debug_str     0x00000000000081ac      0x3b2 build/obj/comm_can.o
-                                       0x1773 (size before relaxing)
- .debug_str     0x000000000000855e      0x19a build/obj/led_external.o
+ .debug_str     0x00000000000081e7      0x375 build/obj/comm_can.o
+                                       0x1771 (size before relaxing)
+ .debug_str     0x000000000000855c      0x19a build/obj/led_external.o
                                         0x902 (size before relaxing)
- .debug_str     0x00000000000086f8      0x204 build/obj/encoder.o
+ .debug_str     0x00000000000086f6      0x204 build/obj/encoder.o
                                         0xdea (size before relaxing)
- .debug_str     0x00000000000088fc       0x9e build/obj/flash_helper.o
+ .debug_str     0x00000000000088fa       0x9e build/obj/flash_helper.o
                                        0x121b (size before relaxing)
- .debug_str     0x000000000000899a      0x77e build/obj/mc_interface.o
+ .debug_str     0x0000000000008998      0x77e build/obj/mc_interface.o
                                        0x1f24 (size before relaxing)
- .debug_str     0x0000000000009118      0x6a5 build/obj/mcpwm_foc.o
+ .debug_str     0x0000000000009116      0x6a5 build/obj/mcpwm_foc.o
                                        0x2920 (size before relaxing)
- .debug_str     0x00000000000097bd       0xa5 build/obj/hw_410.o
+ .debug_str     0x00000000000097bb       0xa5 build/obj/hw_410.o
                                         0x99a (size before relaxing)
- .debug_str     0x0000000000009862       0xd7 build/obj/app.o
+ .debug_str     0x0000000000009860       0xd7 build/obj/app.o
                                         0xdf7 (size before relaxing)
- .debug_str     0x0000000000009939       0xf5 build/obj/app_ppm.o
+ .debug_str     0x0000000000009937       0xf5 build/obj/app_ppm.o
                                        0x12cc (size before relaxing)
- .debug_str     0x0000000000009a2e       0xe1 build/obj/app_adc.o
+ .debug_str     0x0000000000009a2c       0xe1 build/obj/app_adc.o
                                        0x13a0 (size before relaxing)
- .debug_str     0x0000000000009b0f       0x75 build/obj/app_uartcomm.o
+ .debug_str     0x0000000000009b0d       0x75 build/obj/app_uartcomm.o
                                         0xa82 (size before relaxing)
- .debug_str     0x0000000000009b84      0x137 build/obj/app_nunchuk.o
+ .debug_str     0x0000000000009b82      0x137 build/obj/app_nunchuk.o
                                        0x14b5 (size before relaxing)
- .debug_str     0x0000000000009cbb       0x75 build/obj/spi_sw.o
+ .debug_str     0x0000000000009cb9       0x75 build/obj/spi_sw.o
                                         0x6a8 (size before relaxing)
- .debug_str     0x0000000000009d30      0x2c9 build/obj/rf.o
+ .debug_str     0x0000000000009d2e      0x2c9 build/obj/rf.o
                                         0xafa (size before relaxing)
- .debug_str     0x0000000000009ff9      0x107 build/obj/rfhelp.o
+ .debug_str     0x0000000000009ff7      0x107 build/obj/rfhelp.o
                                         0xbbf (size before relaxing)
- .debug_str     0x000000000000a100      0x184 build/obj/nrf_driver.o
+ .debug_str     0x000000000000a0fe      0x184 build/obj/nrf_driver.o
                                         0x8d6 (size before relaxing)
- .debug_str     0x000000000000a284      0x3ba build/obj/stm32f4xx_adc.o
+ .debug_str     0x000000000000a282      0x3ba build/obj/stm32f4xx_adc.o
                                         0x8e3 (size before relaxing)
- .debug_str     0x000000000000a63e      0x205 build/obj/stm32f4xx_dma.o
+ .debug_str     0x000000000000a63c      0x205 build/obj/stm32f4xx_dma.o
                                         0x60a (size before relaxing)
- .debug_str     0x000000000000a843       0xbd build/obj/stm32f4xx_exti.o
+ .debug_str     0x000000000000a841       0xbd build/obj/stm32f4xx_exti.o
                                         0x414 (size before relaxing)
- .debug_str     0x000000000000a900      0x388 build/obj/stm32f4xx_flash.o
+ .debug_str     0x000000000000a8fe      0x388 build/obj/stm32f4xx_flash.o
                                         0x767 (size before relaxing)
- .debug_str     0x000000000000ac88      0x496 build/obj/stm32f4xx_rcc.o
+ .debug_str     0x000000000000ac86      0x496 build/obj/stm32f4xx_rcc.o
                                         0x89d (size before relaxing)
- .debug_str     0x000000000000b11e      0x7b7 build/obj/stm32f4xx_tim.o
+ .debug_str     0x000000000000b11c      0x7b7 build/obj/stm32f4xx_tim.o
                                         0xe2b (size before relaxing)
- .debug_str     0x000000000000b8d5       0x85 build/obj/stm32f4xx_wwdg.o
+ .debug_str     0x000000000000b8d3       0x85 build/obj/stm32f4xx_wwdg.o
                                         0x366 (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x88b0

@@ -257,17 +257,20 @@ static THD_FUNCTION(cancom_process_thread, arg) {
 						 * Send with standard 11-bit ID with base 0x500 and offset = 0x10. */
 
 						ind = 0;
-						buffer_append_float32(transmit_buffer, mc_interface_get_rpm(), 1.0, &ind);
+						buffer_append_float32(transmit_buffer, mc_interface_get_rpm(), 1000.0, &ind);
 						comm_can_transmit_std_id(app_get_configuration()->controller_id | 0x510, transmit_buffer, 4);
 						break;
 
-					case CAN_PACKET_GET_MOSFET_TEMP:
+					case CAN_PACKET_GET_TEMP_VOLT:
 						/* Send the mosfet temperature split into 4 bytes and scaled by a factor of 1000.
 						 * Send with standard 11-bit ID witch base 0x500 and offset = 0x20. */
 					
 						ind  = 0;
+
 						buffer_append_float32(transmit_buffer, NTC_TEMP(ADC_IND_TEMP_MOS1), 1000.0, &ind);
-						comm_can_transmit_std_id(app_get_configuration()->controller_id | 0x520, transmit_buffer, 4);
+						buffer_append_float32(transmit_buffer, (float)GET_INPUT_VOLTAGE(), 1000.0, &ind);
+
+						comm_can_transmit_std_id(app_get_configuration()->controller_id | 0x520, transmit_buffer, 8);
 						break;
 
 					default:
